@@ -1,0 +1,2554 @@
+{
+  "categories": [
+    {
+      "nom": "Autre",
+      "questions": [
+        {
+          "question": "T'es beau ? ",
+          "reponses": [
+            "Cela dépend de l'analyse initiale et des outils utilisés pour l'indexation."
+          ],
+          "difficulte": 1
+        },
+        {
+          "question": "Comment saviez-vous sur quel index vous deviez travailler lors de la partie indexation ?",
+          "reponses": [
+            "Cela dépend de l'analyse initiale et des outils utilisés pour l'indexation."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Y a-t-il une méthode ou un outil qui permet de savoir ce qu'on peut améliorer dans une étude ?",
+          "reponses": [
+            "Des outils comme les audits SEO ou les analyses de performance peuvent aider."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "TDD ?",
+          "reponses": [
+            "On voudrait mettre ça en place. Les TU."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Plus à l'aise sur le front ou le back ?",
+          "reponses": [
+            "Je préfère le back mais je suis à l'aise sur le front (sauf CSS)"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Observable, promise - ça te parle ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quand utilises-tu l'un ou l'autre ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Est-ce que vous pouvez m'expliquer ce que c'est que le TDD ?",
+          "reponses": [
+            "Le TDD (Test-Driven Development) est une méthode de développement où les tests sont écrits avant le code fonctionnel. Cela permet de s'assurer que le code répond aux exigences et de détecter les erreurs plus tôt."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle différence fais-tu du web et internet ?",
+          "reponses": [
+            "Internet est un réseau qui regroupe des serveurs et des infrastructures physiques. Le web (World Wide Web) est le maillage logique de dispositifs accessibles via Internet."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Côté design system à la SG, tu utilisais quoi ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "C'est quoi un composant qui doit appartenir à un design system ?",
+          "reponses": [
+            "Un composant de design system doit être réutilisable, cohérent avec le style de l'application, et facilement intégrable dans différentes parties de l'application."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu’est-ce qu’un composant qui doit appartenir à un design system ?",
+          "reponses": [
+            "Un composant qui appartient à un design system est un élément d'interface utilisateur réutilisable, cohérent, modulaire, personnalisable, accessible, bien documenté, testé et maintenu."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "JAVA 8 - ca sert à quoi les streams ?",
+          "reponses": [
+            "Les streams en Java 8 permettent de traiter des séquences d'éléments de manière fonctionnelle, en utilisant des opérations comme filter, map, etc."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "JAVA 8 - que connais tu comme opérateur ? filter, maps",
+          "reponses": [
+            "Les opérateurs de streams en Java 8 incluent filter (pour filtrer les éléments) et map (pour transformer les éléments)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "JAVA 8 - ca fait quoi le maps ?",
+          "reponses": [
+            "L'opérateur map dans les streams de Java 8 est utilisé pour transformer chaque élément de la séquence en un autre élément."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "JAVA 8 - qu'est-ce qu'une interface fonctionnelle ?",
+          "reponses": [
+            "Une interface fonctionnelle est une interface qui contient une seule méthode abstraite. Elle est souvent utilisée avec les lambdas en Java."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "JAVA 11 - Switch case ? qu'est-ce qu'il ta plu ?",
+          "reponses": [
+            "Le switch case en Java 11 permet d'utiliser des expressions comme valeurs de cas, ce qui le rend plus flexible et lisible."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu entendu parler de tt ce qui arrive côté compilation natif du code java sur des binaires natif ?",
+          "reponses": [
+            "Oui, Oracle et des projets open-source développent GraalVM, qui permet de compiler du Java en binaires natifs. C'est une approche nouvelle pour Java, qui utilisait traditionnellement une JVM."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Services de config. Pk avez-vous fait ce choix l‡ ? repot avec les config. yaml.",
+          "reponses": [
+            "Nous avons choisi d'utiliser un repository avec les configurations YAML pour centraliser et gérer facilement les configurations des microservices."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Il y a des conf' mis en place par micro services ?",
+          "reponses": [
+            "Oui, les configurations peuvent être mises en place par microservices pour permettre une gestion décentralisée et flexible."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pk aimes-tu la notion tdd ?",
+          "reponses": [
+            "J'aime la notion de TDD car elle permet de développer des logiciels plus fiables et maintenables en écrivant les tests avant le code."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Cmt je vais pouvoir maintenir mon applicatif et faire confiance sur les montées de versions ?",
+          "reponses": [
+            "Pour maintenir l'application et faire confiance aux montées de versions, il est important d'avoir une suite de tests automatisés, une documentation à jour, et un processus de déploiement continu bien défini."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quel(s) les framework(s) connaissez-vous ? Spring/Hibernate/Struts",
+          "reponses": [
+            "Je connais les frameworks Spring, Hibernate, et Struts."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi servent-ils ? Spring (Model) / Hibernate (Mapping BDD)",
+          "reponses": [
+            "Spring sert à la gestion des modèles et des dépendances, tandis qu'Hibernate est utilisé pour le mapping objet-relationnel avec les bases de données."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Connaissez vous le mot clef « final » ?",
+          "reponses": [
+            "Oui, le mot-clé final en Java est utilisé pour indiquer qu'une méthode, une classe ou une variable ne peut pas être modifiée ou héritée."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Si je la mets sur une classe ?",
+          "reponses": [
+            "Si le mot-clé final est mis sur une classe, cette classe ne pourra pas être héritée par d'autres classes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Est-ce que vous connaissez le mot clef « static » ?",
+          "reponses": [
+            "Oui, le mot-clé static en Java est utilisé pour déclarer des membres (méthodes ou variables) qui appartiennent à la classe plutôt qu'à une instance de la classe."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Connaissez-vous des méthodes statics ?",
+          "reponses": [
+            "Oui, une méthode statique bien connue est la méthode main, qui est le point d'entrée d'une application Java."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Est-ce que je peux appeler à partir d’une méthode statique une méthode qui est nonstatique ?",
+          "reponses": [
+            "Non, une méthode statique ne peut pas appeler directement une méthode non statique car elle n'a pas accès à l'instance de la classe."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Que permet le mot clé « volatile » ?",
+          "reponses": [
+            "Le mot-clé volatile en Java est utilisé pour indiquer qu'une variable peut être modifiée par plusieurs threads et doit être rafraîchie à chaque lecture."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Avez-vous entendu parler des classes abstraites ?",
+          "reponses": [
+            "Oui, une classe abstraite en Java est une classe qui ne peut pas être instanciée et qui sert de modèle pour d'autres classes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu’est-ce que c’est ?",
+          "reponses": [
+            "Une classe abstraite est une classe qui ne peut pas être instanciée et qui sert de modèle pour d'autres classes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Connaissez-vous les interfaces ? (Réponse : par rapport au mot-clef implément)",
+          "reponses": [
+            "Oui, les interfaces en Java sont des contrats qui définissent des méthodes que les classes doivent implémenter."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu’est-ce que c’est ?",
+          "reponses": [
+            "Une interface en Java est un contrat qui définit un ensemble de méthodes que les classes doivent implémenter."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Est-ce que je peux implémenter toutes les méthodes ?",
+          "reponses": [
+            "Oui, une classe peut implémenter toutes les méthodes définies dans une interface."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Avez-vous déjà utilisé des maps en java ?",
+          "reponses": [
+            "Oui, les maps en Java sont utilisées pour associer des clés uniques à des valeurs."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Il y a-t-il des conditions particulières à remplir quand on veut utiliser « maps » ?",
+          "reponses": [
+            "Oui, les clés dans une map doivent être uniques."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "De quelle classe hérite toutes les classes java ?",
+          "reponses": [
+            "Toutes les classes en Java héritent de la classe Object."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pouvez-vous me donner une ou deux méthodes de la classe objet ?",
+          "reponses": [
+            "Deux méthodes de la classe Object sont equals() et toString()."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Connaissez-vous les accès ?",
+          "reponses": [
+            "Oui, les niveaux d'accès en Java sont public, protected, private, et package-private (par défaut)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Connaissez-vous les modificateurs d’objets ?",
+          "reponses": [
+            "Oui, les modificateurs d'objets incluent les getters (pour accéder aux valeurs) et les setters (pour modifier les valeurs)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont leurs différences ?",
+          "reponses": [
+            "Les getters permettent d'accéder aux valeurs des attributs, tandis que les setters permettent de modifier ces valeurs."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Est-ce que vous connaissez la surcharge ?",
+          "reponses": [
+            "Oui, la surcharge en Java permet de définir plusieurs méthodes avec le même nom mais des paramètres différents."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Est-ce que je peux redéfinir une méthode privée ? (=non) et une méthode statique (=non plus) ? Pourquoi ?",
+          "reponses": [
+            "Non, les méthodes privées et statiques ne peuvent pas être redéfinies car elles ne sont pas héritées par les sous-classes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est ce qu'une hashmap ?",
+          "reponses": [
+            "Une HashMap est une collection en Java qui stocke des paires clé-valeur."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels types d'objets doit-on utiliser comme clefs ?",
+          "reponses": [
+            "Les types d'objets couramment utilisés comme clés dans une HashMap incluent String, Integer, et d'autres types immuables."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'intérêt des exceptions ?",
+          "reponses": [
+            "Les exceptions en Java permettent de gérer les erreurs et les conditions exceptionnelles de manière structurée."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Avez-vous créé vos propres exceptions ?",
+          "reponses": [
+            "Oui, j'ai créé des exceptions personnalisées pour gérer des cas spécifiques dans mes applications."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle sont les 2 types de Throwable ?",
+          "reponses": [
+            "Les deux types de Throwable en Java sont Error et Exception."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle classe étend la NullPointerException ?",
+          "reponses": [
+            "La classe NullPointerException étend la classe RuntimeException."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Q # 1) Comment corriger NullPointerException en Java ?",
+          "reponses": [
+            "Pour corriger une NullPointerException, assurez-vous que tous les objets sont correctement initialisés et évitez d'utiliser des références nulles."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Q # 2) NullPointerException est-elle cochée ou décochée ?",
+          "reponses": [
+            "NullPointerException n'est pas une exception vérifiée. Elle est une sous-classe de RuntimeException et n'est pas cochée."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Q # 3) Comment arrêter NullPointerException ?",
+          "reponses": [
+            "Pour éviter NullPointerException, utilisez des méthodes comme equals() et equalsIgnoreCase() avec des littéraux, utilisez valueOf() au lieu de toString(), et utilisez les annotations @NotNull et @Nullable."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Q # 4) Quelle est la valeur nulle en Java ?",
+          "reponses": [
+            "La valeur nulle en Java est représentée par le mot-clé null, qui indique l'absence de référence à un objet."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Q # 5) Pouvons-nous attraper NullPointerException en Java ?",
+          "reponses": [
+            "Oui, NullPointerException peut être attrapée, mais ce n'est généralement pas recommandé car elle est une exception non vérifiée."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Que faire en cas d'exception en général ?",
+          "reponses": [
+            "En cas d'exception, il est important de la gérer de manière appropriée, soit en la capturant et en la traitant, soit en laissant l'application échouer de manière contrôlée."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la hiérarchie des types d’exception ?",
+          "reponses": [
+            "En Java, toutes les exceptions héritent de la classe Throwable. Les exceptions sont divisées en deux catégories principales : les erreurs (Error) et les exceptions (Exception)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles classes avez-vous utilisé pour gérer des Thread ?",
+          "reponses": [
+            "J'ai utilisé les classes Thread et Runnable pour gérer des threads en Java."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Avez-vous déjà utilisé des executor pour gérer les Thread ?",
+          "reponses": [
+            "Oui, j'ai utilisé des executors pour gérer l'exécution des threads de manière plus efficace."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les différents niveaux d’accès en java ?",
+          "reponses": [
+            "Les différents niveaux d'accès en Java sont public, protected, private, et package-private (par défaut)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les modificateurs de visibilité ?",
+          "reponses": [
+            "En Java, il existe quatre niveaux d’accès, appelés aussi « access modifiers » en anglais : public, protected, private et package (non défini, accès par défaut)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est ce que docker ?",
+          "reponses": [
+            "Docker est une plateforme permettant de créer, déployer et exécuter des applications dans des conteneurs."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Savez-vous écrire un dockerfile ?",
+          "reponses": [
+            "Oui, un Dockerfile contient les instructions pour construire une image Docker, incluant la base, les dépendances, et les commandes à exécuter."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles versions de Junit as-tu utilisé ?",
+          "reponses": [
+            "J'ai utilisé JUnit 4 et JUnit 5."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu peux me citer quelques annotations que l'on utilise sur les tests Junit ? Tu peux me parler des annotations ?",
+          "reponses": [
+            "Les annotations courantes incluent @Test, @BeforeEach, @AfterEach, @BeforeAll."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment gérer une exception avec Junit ?",
+          "reponses": [
+            "En utilisant la méthode assertThrows en JUnit 5."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu peux me prédire ce que fait fonction derrière ? ça prend un paramètre et ça retourne un autre paramètre",
+          "reponses": [
+            "Cela semble être une fonction qui prend un paramètre en entrée et retourne un résultat basé sur ce paramètre."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Différence Flat map vs Map ?",
+          "reponses": [
+            "FlatMap aplatit une structure imbriquée avant de transformer les éléments, tandis que map transforme directement les éléments."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu créer une interface fonctionnelle. Quelles sont les étapes pour créer l'interface ?",
+          "reponses": [
+            "Utiliser l'annotation @FunctionalInterface et définir une méthode abstraite."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Différence entre Shaked exception vs unshaked exception ?",
+          "reponses": [
+            "Checked Exception doit être capturée ou déclarée, tandis que Unchecked Exception (RuntimeException) ne l'est pas."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "C'est quoi un singleton ?",
+          "reponses": [
+            "Un singleton est une classe dont une seule instance existe dans la JVM."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment on déclare le constructeur pour un singleton ?",
+          "reponses": [
+            "Le constructeur d'un singleton doit être privé."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Private, public et si on met rien, protected ?",
+          "reponses": [
+            "Private : accessible uniquement dans la classe. Public : accessible partout. Protected : accessible dans la classe et les sous-classes. Package-private (par défaut) : accessible dans le même package."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Explique-moi l'architecture microservice sur laquelle tu as travaillé.",
+          "reponses": [
+            "L'architecture microservices divise une application en services indépendants; chacun responsable d'une fonctionnalité spécifique; communiquant via des APIs et gérés de manière décentralisée."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Parle-moi de la JVM",
+          "reponses": [
+            "La JVM (Java Virtual Machine) est un environnement d'exécution qui permet d'exécuter des programmes Java en traduisant le bytecode en instructions spécifiques à la machine."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Compilation de java dans un binaire natif (GraalVM) ?",
+          "reponses": [
+            "GraalVM permet de compiler du code Java en binaires natifs; offrant des performances accrues en réduisant le temps de démarrage et en optimisant l'exécution."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une interface fonctionnelle ?",
+          "reponses": [
+            "Une interface fonctionnelle est une interface avec une seule méthode abstraite. Elle est souvent utilisée avec les lambdas en Java."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Donner un exemple d'un objet qui implémente une interface fonctionnelle.",
+          "reponses": [
+            "Un exemple est l'interface Predicate; qui peut être implémentée par une lambda pour filtrer des éléments dans une collection."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi mettre des méthodes par défaut dans une interface fonctionnelle ?",
+          "reponses": [
+            "Les méthodes par défaut dans une interface fonctionnelle permettent de fournir une implémentation par défaut tout en permettant aux classes implémentantes de les redéfinir si nécessaire."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "A partir d'une liste de strings; comment ne garder que celles égales à 'Tata' ou 'tata' (case insensitive) ?",
+          "reponses": [
+            "Utiliser la méthode filter avec equalsIgnoreCase : list.stream().filter(s -> s.equalsIgnoreCase('tata')).collect(Collectors.toList());"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pour modifier un objet (ex: 'projet'); quel verbe REST et quelle URI utiliser ?",
+          "reponses": [
+            "Utiliser le verbe PUT avec l'URI correspondant à l'objet à modifier; par exemple /projects/{id}."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une méthode finale ?",
+          "reponses": [
+            "Une méthode finale est une méthode qui ne peut pas être redéfinie par une sous-classe."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Une classe peut-elle être finale et abstraite à la fois ?",
+          "reponses": [
+            "Non; une classe ne peut pas être à la fois finale et abstraite car ces concepts sont opposés."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'un objet immutable ? Comment rendre un objet immutable ?",
+          "reponses": [
+            "Un objet immutable est un objet dont l'état ne peut pas être modifié après sa création. Pour rendre un objet immutable; il faut s'assurer qu'il n'expose pas de méthodes permettant de modifier ses attributs internes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi aurait-on besoin d'un objet immutable (indice : multithread) ?",
+          "reponses": [
+            "Les objets immuables sont utiles dans un contexte multithread pour éviter les problèmes de concurrence et garantir la sécurité des threads."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels process pour résoudre des problèmes de fuite de mémoire en Java ?",
+          "reponses": [
+            "Pour résoudre les problèmes de fuite de mémoire; il faut identifier les objets non utilisés mais toujours référencés; utiliser des outils de profilage; et s'assurer que les ressources sont correctement libérées."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle attention portes-tu à l'optimisation des performances/mémoire quand tu programmes ? Est-ce toujours bien de privilégier la lisibilité du code ?",
+          "reponses": [
+            "L'optimisation des performances et de la mémoire est importante; mais il est souvent préférable de privilégier la lisibilité du code pour faciliter la maintenance et réduire les erreurs."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est ta vélocité habituelle ? 1 tâche 'simple' en combien de temps ?",
+          "reponses": [
+            "La vélocité peut varier; mais une tâche simple peut généralement être complétée en quelques heures; selon la complexité et les exigences."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi ça sert entity Framework ? Les avantages et les inconvénients ?",
+          "reponses": [
+            "Entity Framework sert à mapper des objets Java avec des tables de base de données. Avantages : abstraction; productivité. Inconvénients : complexité; courbe d'apprentissage."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "C'est bien d'utiliser des ORM ?",
+          "reponses": [
+            "Utiliser des ORM peut être bénéfique pour la productivité et la maintenabilité; mais peut aussi introduire de la complexité et des problèmes de performance."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Espace mémoire ?",
+          "reponses": [
+            "L'espace mémoire est la quantité de mémoire disponible pour stocker des données et exécuter des programmes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'un objet immutable ?",
+          "reponses": [
+            "Un objet immutable est un objet dont l'état ne peut pas être modifié après sa création."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi veut-on du code qui soit découplé ?",
+          "reponses": [
+            "Le découplage du code permet d'améliorer la modularité; la testabilité; et la maintenabilité."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Class de service qui instancie elle-même le service ?",
+          "reponses": [
+            "Une classe de service qui instancie elle-même le service peut être utilisée pour fournir une instance unique ou contrôler l'accès à des ressources partagées."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Méthode equals et méthode hashcode ?",
+          "reponses": [
+            "Les méthodes equals et hashCode sont utilisées pour comparer l'égalité des objets et générer des codes de hachage pour les collections."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment c'est utilisé la méthode hashcode ?",
+          "reponses": [
+            "La méthode hashCode est utilisée pour générer un code de hachage pour les objets; utilisé dans les collections comme HashMap."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Final; finaly et finalize ? à quoi ça sert",
+          "reponses": [
+            "final : empêche la modification. finally : bloc exécuté après un try. finalize : méthode appelée avant que l'objet ne soit collecté par le GC."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Classe immutable : comment rendre une classe immutable ?",
+          "reponses": [
+            "Pour rendre une classe immutable; assurez-vous que toutes les variables sont finales et initialisées dans le constructeur; et n'exposez pas de méthodes permettant de modifier l'état."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi Ioc facilite la vie ?",
+          "reponses": [
+            "L'IoC (Inversion of Control) facilite la vie en permettant une meilleure gestion des dépendances; en améliorant la modularité et la testabilité du code."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pas de class main qui instancie les objets dans un ordre précis",
+          "reponses": [
+            "Cela permet de découpler les composants et de les rendre plus modulaires et testables."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Annotation sur des méthodes sur des conditions",
+          "reponses": [
+            "Les annotations peuvent être utilisées pour ajouter des métadonnées aux méthodes; comme @Override; @Deprecated; etc."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Différence entre igger et lazy ?",
+          "reponses": [
+            "Eager loading charge toutes les données associées immédiatement; tandis que le lazy loading diffère le chargement jusqu'à ce qu'il soit nécessaire."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Sur l'observabilité; as-tu des métriques ? Côté surveillance ou monitoring",
+          "reponses": [
+            "Oui; des métriques peuvent être collectées et surveillées via des outils comme Prometheus; Grafana; ou ELK Stack."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment les données sont mises sur Grafana ?",
+          "reponses": [
+            "Les données sont collectées par des outils comme Prometheus et visualisées dans Grafana via des dashboards configurés."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Sur l'environnement de serveurs linux; à l'aise en commande en système ?",
+          "reponses": [
+            "Oui; je suis à l'aise avec les commandes Linux pour gérer les serveurs et les systèmes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "SURVEILLER LES PORES ?",
+          "reponses": [
+            "Pour surveiller les processus; on peut utiliser des commandes comme ps; top; htop; ou des outils de monitoring comme Nagios ou Zabbix."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles fonctionnalités utilises-tu du JDK ? Et si je te parle de streams ? Et de lambdas ?",
+          "reponses": [
+            "J'utilise les fonctionnalités du JDK comme les collections; les streams pour le traitement des données; et les lambdas pour les expressions fonctionnelles."
+          ],
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "nom": "API Rest",
+      "questions": [
+        {
+          "question": "Qu'est-ce que PKCE par rapport à l'authorization flow ?",
+          "reponses": [
+            "PKCE (Proof Key for Code Exchange) est une extension d'OAuth 2.0 pour sécuriser les applications publiques."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce que JWT ?",
+          "reponses": [
+            "JWT (JSON Web Token) est un standard ouvert pour la création de jetons d'accès sécurisés."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "De quoi est fait OAuth 2 ?",
+          "reponses": [
+            "OAuth 2.0 est un protocole d'autorisation permettant à une application d'accéder à des ressources protégées."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment fonctionne le jeton et comment la signature est-elle vérifiée ?",
+          "reponses": [
+            "Le jeton est validé en vérifiant la signature avec la clé publique du serveur d'autorisation."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Faisiez-vous du TDD dans votre façon de développer ?",
+          "reponses": [
+            "TDD (Test-Driven Development) implique d'écrire les tests avant le code fonctionnel."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Pouvez-vous décrire un cycle TDD ?",
+          "reponses": [
+            "Un cycle TDD comprend la rédaction d'un test, l'écriture du code, puis la refactorisation."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quels sont les niveaux de maturité d'une API REST ?",
+          "reponses": [
+            "Les niveaux de maturité d'une API REST incluent la gestion des erreurs et l'utilisation de HATEOAS."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment contourner l'absence d'héritage multiple en Java ?",
+          "reponses": [
+            "Java utilise les interfaces pour simuler l'héritage multiple."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce que la classe Optional en Java ?",
+          "reponses": [
+            "La classe Optional en Java est utilisée pour représenter des valeurs nullables."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce que mTLS ?",
+          "reponses": [
+            "mTLS (Mutual TLS) authentifie à la fois le client et le serveur."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce qu'une attaque CSRF ?",
+          "reponses": [
+            "CSRF (Cross-Site Request Forgery) est une attaque qui force un utilisateur à exécuter des actions non désirées."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Avez-vous manipulé Swagger ?",
+          "reponses": [
+            "Swagger est un outil pour documenter et tester les API REST."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Pouvez-vous donner un exemple de design pattern ?",
+          "reponses": [
+            "Un exemple de design pattern est le Singleton, qui restreint l'instantiation d'une classe à un seul objet."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est le défaut du design pattern Singleton ?",
+          "reponses": [
+            "Le défaut du Singleton est qu'il peut introduire des problèmes de test et de couplage."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Avez-vous développé en orienté objet ?",
+          "reponses": [
+            "Le développement orienté objet implique l'utilisation de classes et d'objets."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle est la différence entre un rebase et un merge en Git ?",
+          "reponses": [
+            "Un rebase réécrit l'historique des commits, tandis qu'un merge les fusionne."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment les droits sont-ils définis avec Spring Security ?",
+          "reponses": [
+            "Les droits sont définis en configurant les rôles et autorisations dans Spring Security."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "D'où viennent les principales ?",
+          "reponses": [
+            "Les principales sont des informations d'identification de l'utilisateur authentifié."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quel type de token est utilisé ?",
+          "reponses": [
+            "Le type de token couramment utilisé est le JWT (JSON Web Token)."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "De quoi est composé le token ?",
+          "reponses": [
+            "Un JWT est composé d'un en-tête, d'une charge utile et d'une signature."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment le token JWT est-il stocké côté front ?",
+          "reponses": [
+            "Le token JWT est généralement stocké dans le local storage ou les cookies côté front."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Y a-t-il une faille de sécurité avec le stockage du token ?",
+          "reponses": [
+            "Le stockage du token peut poser des risques de sécurité, comme le vol de session."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment le token est-il validé ?",
+          "reponses": [
+            "Le token est validé en vérifiant sa signature et son expiration."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quels sont les différents scopes du bean ?",
+          "reponses": [
+            "Les scopes du bean définissent sa portée et son cycle de vie."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Que faire pour transformer un bean de scope request en application ?",
+          "reponses": [
+            "Transformer un bean de scope request en application nécessite de gérer l'état partagé."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment gérer l'accès concurrent ?",
+          "reponses": [
+            "L'accès concurrent peut être géré avec des mécanismes comme les verrous ou les sémaphores."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quels mécanismes d'accès concurrents connaissez-vous ?",
+          "reponses": [
+            "Les mécanismes d'accès concurrents incluent les verrous optimistes et pessimistes."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle base de données utilisiez-vous ?",
+          "reponses": [
+            "La base de données utilisée dépend des besoins de l'application (SQL, NoSQL, etc.)."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment accédiez-vous aux données ?",
+          "reponses": [
+            "L'accès aux données peut se faire via des ORM comme Hibernate ou des requêtes natives."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment fonctionne la gestion des transactions sur les bases de données ?",
+          "reponses": [
+            "La gestion des transactions assure l'intégrité des données via des commits et rollbacks."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Comment gérer la partie transactionnelle sans Spring ?",
+          "reponses": [
+            "Sans Spring, les transactions peuvent être gérées manuellement avec des blocs try-catch."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles actions entreprendre si une application met 12 secondes à afficher des données en production ?",
+          "reponses": [
+            "Il faut vérifier les requêtes SQL, l'indexation, et les ressources serveur."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles sont les bonnes pratiques de développement dans un milieu embarqué ?",
+          "reponses": [
+            "Les bonnes pratiques incluent la gestion de la mémoire et l'optimisation des threads."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quels sont les différents ThreadPools et leurs spécificités ?",
+          "reponses": [
+            "Les ThreadPools incluent les pools fixes, cachés, et planifiés."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie le mot-clé 'volatile' en Java ?",
+          "reponses": [
+            "Le mot-clé 'volatile' assure la visibilité des modifications entre les threads."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle est la différence entre une classe abstraite et une interface ?",
+          "reponses": [
+            "Une classe abstraite peut avoir des implémentations de méthodes, contrairement à une interface."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce qu'une interface fonctionnelle ?",
+          "reponses": [
+            "Une interface fonctionnelle contient une seule méthode abstraite."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Peut-on retrouver des implémentations de méthodes sur les interfaces ?",
+          "reponses": [
+            "Les interfaces peuvent avoir des méthodes par défaut depuis Java 8."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi cette possibilité a-t-elle été ajoutée en Java 8 ?",
+          "reponses": [
+            "Cela permet de rajouter des méthodes sans casser le code existant."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Quand utiliser une classe abstraite et quand utiliser une interface ?",
+          "reponses": [
+            "Utiliser une classe abstraite pour le partage de code, et une interface pour définir des types."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie le Java Memory Model ?",
+          "reponses": [
+            "Le Java Memory Model définit comment les threads interagissent avec la mémoire."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie le Java Native Interface ?",
+          "reponses": [
+            "Le Java Native Interface permet d'appeler du code natif depuis Java."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu peux me citer quelques annotations que l'on utilise sur les tests Junit ?",
+          "reponses": [
+            "Test, BeforeEach, AfterEach, BeforeAll"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Combien de tests unitaires pour couvrir une méthode 'if' ?",
+          "reponses": [
+            "2"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment gérer une exception avec Junit ?",
+          "reponses": [
+            "La méthode assertThrows en JUnit 5"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Avez-vous déjà fait de la programmation concurrente ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les avantages de Spring ?",
+          "reponses": [
+            "Rapidité de développement, gestion des dépendances, inversion de contrôle"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le scope d'un bean par défaut ?",
+          "reponses": [
+            "Singleton"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "C'est quoi un singleton ?",
+          "reponses": [
+            "Une classe dont une seule instance (max) existe dans la JVM."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment déclare-t-on le constructeur pour un singleton ?",
+          "reponses": [
+            "Private"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la différence entre les modificateurs d'accès 'private', 'public', et 'protected' ?",
+          "reponses": [
+            "Private : accessible uniquement dans la classe, Public : accessible partout, Protected : accessible dans la classe et les sous-classes"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels verbes as-tu utilisés quand tu as travaillé sur les API REST ?",
+          "reponses": [
+            "GET, POST, PUT, PATCH, DELETE"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la différence entre GET et POST ?",
+          "reponses": [
+            "GET ne véhicule de l'information que dans l'URL"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu déjà utilisé Kafka ? Les schéma registry ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu connais Avro ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les avantages de Kafka ? vs RabbitMQ",
+          "reponses": [
+            "Kafka est conçu pour un débit élevé et une haute disponibilité, tandis que RabbitMQ est plus adapté pour des messages complexes et des routages."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce que Upserts ?",
+          "reponses": [
+            "Upserts (ou 'upsert') est une opération qui met à jour une entrée existante ou en insère une nouvelle si elle n'existe pas."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Kafka replaying template ? Synchronisme dans Kafka",
+          "reponses": [],
+          "difficulte": 3
+        },
+        {
+          "question": "Tu connais : Kafka Connect ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "La différence entre producer / consumer ?",
+          "reponses": [
+            "Un producer envoie des messages à Kafka, tandis qu'un consumer lit les messages depuis Kafka."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Kafka Streams et Kafka Connect ?",
+          "reponses": [
+            "Kafka Streams est utilisé pour le traitement de flux en temps réel, tandis que Kafka Connect est utilisé pour l'intégration de données."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Le danger avec la stratégie 'earliest' ? (avoir des doublons dans la base)",
+          "reponses": [
+            "La stratégie 'earliest' peut entraîner des doublons car elle relit tous les messages depuis le début."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment tu travailles avec l'équipe ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "TDD, BDD, quels est l'intérêt de ces pratiques là ?",
+          "reponses": [
+            "TDD (Test-Driven Development) et BDD (Behavior-Driven Development) améliorent la qualité du code et facilitent la maintenance."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Avec des personnes réfractaires, comment les embarques-tu là-dedans ? (par l'exemple, live coding, avec des katas, etc.)",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quel contexte a été utilisé Kafka Streams ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Les 3 bonnes pratiques sur Kafka Streams ?",
+          "reponses": [
+            "Encadrer par un expert, limiter le nombre de threads, gérer les erreurs de manière appropriée."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle stratégie as-tu pu mettre pour la gestion d'erreur ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Si tu devais expliquer à un junior - Broker de message | Producer, topics (statut des remboursements) - partition (nom de famille alphabétique) - consumer qui va lire ces messages",
+          "reponses": [
+            "Un broker de message reçoit des messages des producers, les stocke dans des topics, qui sont partitionnés pour la réplication, et les consumers lisent ces messages."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Partition : répliquer ça sur différents nœuds",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Consumer group",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Offset : endroit de la position où en est-ce qu'il en est",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Bonnes pratiques pour concevoir API ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Rétention en mémoire. Événement - Event Driven.",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quand tu as mis l'import des fichiers, tu as utilisé quoi comme technos ?",
+          "reponses": [
+            "Apache POI - Excel"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Et quelle était la taille des fichiers ? (O : taille moyenne)",
+          "reponses": [
+            "Taille moyenne"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu eu un problème de mémoire avec Apache POI ?",
+          "reponses": [
+            "Pas de problème de gros fichiers de traitement par lot"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu as fait des choses côté T.U. ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Sur Spring, si tu devais te donner une note ?",
+          "reponses": [
+            1759795200000
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu es à l'aise avec le fonctionnement des transactions ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment fais-tu quand tu as ton modèle, tu as ton repository, et un moment de service, tu as tes services qui vont écrire dans la base de données, tu peux me poser telle position dans tel portefeuille ?",
+          "reponses": [],
+          "difficulte": 3
+        },
+        {
+          "question": "Est-ce que le transactionnel peut être privé ?",
+          "reponses": [],
+          "difficulte": 3
+        },
+        {
+          "question": "Tu connais AOP ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Niveau d'isolation, ça se documente.",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Et sur Hibernate, quelle note ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi as-tu eu à utiliser l'API Criteria ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Est-ce que ce choix peut se défendre d'utiliser cette API ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Si je te dis que j'ai une personne/entité personne, elle peut avoir plusieurs adresses, le select N+1. Fetcher. Où est-ce que tu places l'un ou l'autre sur la personne ou sur l'adresse ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quel fetch mets-tu sur cette entité ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Sur K8S, as-tu des notions ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Là on a du cloud IBM, du K8S, là-dedans ça tourne. Conteneurs dans les pods",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Si je te dis ingress, ça te parle ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Si je te dis le Helm chart ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Angular de 1 à 10 ?",
+          "reponses": [
+            1759795200000
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu n'as pas eu de problème de 'crossed origine', 'corse' ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Dans Spring Security, tu as mis quoi en place dans l'authentification ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu as déjà travaillé avec du SSO ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Je te mets dans une situation, avec lien TFS, grosse pression. Tu as un front Angular et pour migrer sur cloud, y a besoin de Angular 15. Qu'est-ce que tu dis à ton manager ?",
+          "reponses": [
+            "Communique via du REST. Connexion login password. 2 types d'authentification : environnement qui marchouille d'autres carrés."
+          ],
+          "difficulte": 3
+        },
+        {
+          "question": "Vous connaissez bien Kafka ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous avez regardé comment ça fonctionnait ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Les topics étaient déjà créées ? Vous avez vu comment marche un topic derrière ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous aviez qu'un consumer sur ce topic ou vous en aviez plusieurs ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Sur la partie Kafka, si vous mettez plusieurs consumers, vous connaissez les contraintes que ça peut avoir ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Sur votre mission, c'était plutôt français ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "D'un point de vue anglais : vous pouvez me décrire vos dernières vacances en anglais ? --> test anglais",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Je vois dans votre CV que vous avez ajouté une surcouche JWT, c'est vous qui l'aviez fait ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous récupériez quoi pour avoir ce comportement ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous savez d'où vient cette demande de contrôler les accès de sécurité ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous avez entendu parlé du top 10 : 1 - broken/accès contrôle",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Je vois aussi : refactoring des APIs avec l'injection de dépendance, comment l'injection fonctionne-t-elle et comment sont-ils fait ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "On injecte toujours des singletons ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment vous l'avez mis en place ça ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "L'application c'était une application déployée comment ? C'était avec du Spring Boot ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "L'application fonctionnait avec un jar et des endpoints dedans ? Comment le serveur web était lancé ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Le serveur web ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous avez mis sur le CV : développement d'API REST Java 21 Spring Boot, donc vous avez bien travaillé dessus ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous pouvez m'expliquer comment fonctionne Spring Boot ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Utilisation d'une base de données H2, y a une autre base de données : DB2. Vous avez eu l'occasion de travailler dans un contexte d'écriture de bases de données",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous pouvez m'expliquer ce qu'est une transaction",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que c'est JPA ?",
+          "reponses": [
+            "JPA (Java Persistence API) est une spécification pour la gestion des données relationnelles en Java."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la spécification de cette implémentation ? --> Hibernate",
+          "reponses": [
+            "Hibernate est un framework ORM qui implémente la spécification JPA."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous avez utilisé Hibernate ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous savez quel type de framework est Hibernate ?",
+          "reponses": [
+            "Hibernate est un framework ORM (Object-Relational Mapping)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "En termes de delivery, quel était votre rôle ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle méthodo ?",
+          "reponses": [
+            "Agile, Scrum, SAFE."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Peux-tu me faire la piqûre de rappel de SAFE ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'utilisais-tu comme stack chez Darty ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "À part Java et les frameworks front, tu joues avec d'autres langages ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu as fait du C ou C++ ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Expérience cloud ?",
+          "reponses": [
+            "AWS, S3, Lambda, API Gateway"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu joué avec Kafka ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels types de web services connais-tu ?",
+          "reponses": [
+            "SOAP, REST"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu connais SOAP ? REST ?",
+          "reponses": [
+            "Oui"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Selon toi, quelles sont les différences principales ?",
+          "reponses": [
+            "SOAP est un protocole basé sur XML avec des fonctionnalités avancées comme la sécurité et la fiabilité. REST est une architecture basée sur HTTP, plus légère et plus flexible."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "SOAP, ça veut dire quoi ?",
+          "reponses": [
+            "Simple Object Access Protocol, un protocole pour échanger des messages structurés."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "REST, ça veut dire quoi ?",
+          "reponses": [
+            "Representational State Transfer, une architecture pour les services web basée sur HTTP."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "API REST, comment ça fonctionne ?",
+          "reponses": [
+            "Les API REST utilisent les méthodes HTTP (GET, POST, PUT, DELETE) pour interagir avec les ressources."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les verbes ? GET, POST, et co",
+          "reponses": [
+            "GET pour récupérer des données, POST pour envoyer des données, PUT pour mettre à jour, DELETE pour supprimer."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quels cas tu utilises tels verbes ou tels autres verbes ?",
+          "reponses": [
+            "GET pour lire, POST pour créer, PUT pour mettre à jour, DELETE pour supprimer."
+          ],
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'est-ce que l'asynchronisme ? Comment est-il géré ?",
+          "reponses": [
+            "L'asynchronisme en JavaScript permet d'exécuter des opérations en arrière-plan tout en continuant l'exécution du code principal. Il est géré à l'aide de callbacks, de Promises et de async/await."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment une promesse en JavaScript ?",
+          "reponses": [
+            "Une promesse en JavaScript (Promise) est un objet qui représente la réussite ou l'échec d'une opération asynchrone. Elle permet d'effectuer des traitements en cas de succès avec then() et en cas d'échec avec catch()."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que le hoisting ?",
+          "reponses": [
+            "Le hoisting est un comportement de JavaScript où les déclarations de variables et de fonctions sont déplacées en haut de leur contexte d'exécution avant que le code ne soit exécuté."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la différence entre let, const, et var ?",
+          "reponses": [
+            "var : Scope global ou de fonction, peut être redéclaré et réassigné. let : Scope de bloc, ne peut pas être redéclaré dans le même scope, mais peut être réassigné. const : Scope de bloc, ne peut pas être redéclaré ni réassigné, mais les objets et tableaux assignés peuvent être modifiés."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une closure ?",
+          "reponses": [
+            "Une closure est une fonction qui capture les variables de son contexte de création, permettant à cette fonction d'accéder à ces variables même après que son contexte d'origine a été exécuté."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la différence entre == et === ?",
+          "reponses": [
+            "== fait une comparaison avec conversion de type (coercion), tandis que === fait une comparaison stricte sans conversion de type."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que le prototype ?",
+          "reponses": [
+            "Le prototype est un mécanisme par lequel les objets JavaScript héritent des propriétés et méthodes d'autres objets."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que le currying ?",
+          "reponses": [
+            "Le currying est une technique de transformation d'une fonction qui prend plusieurs arguments en une chaîne de fonctions qui prennent un seul argument chacune."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la différence entre les méthodes call, apply et bind ?",
+          "reponses": [
+            "call : Appelle une fonction avec un this spécifique et des arguments passés individuellement. apply : Appelle une fonction avec un this spécifique et des arguments passés sous forme de tableau. bind : Crée une nouvelle fonction qui, lorsqu'elle est appelée, a son this défini sur une valeur donnée, avec une séquence donnée d'arguments précédant ceux fournis lors de l'appel."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une fonction fléchée (arrow function) et quelles sont ses particularités ?",
+          "reponses": [
+            "Une fonction fléchée est une syntaxe concise pour définir des fonctions. Les fonctions fléchées n'ont pas leur propre this, arguments, super, ou new.target, et ne peuvent pas être utilisées comme constructeurs."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont les différentes valeurs falsy en JavaScript ?",
+          "reponses": [
+            "Les valeurs falsy en JavaScript incluent false, null, undefined, 0, -0, 0n, NaN, et \" (chaîne vide)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pour les tests ? Comment faisais-tu pour tester les composants front ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que l'asynchronisme ?",
+          "reponses": [
+            "L'asynchronisme en JavaScript permet d'exécuter des opérations en arrière-plan tout en continuant l'exécution du code principal. Il est géré à l'aide de callbacks, de Promises et de async/await."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que React ?",
+          "reponses": [
+            "React est une bibliothèque JavaScript pour construire des interfaces utilisateur, particulièrement des applications web monopage où les données peuvent changer au fil du temps."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que le concept clé de React ?",
+          "reponses": [
+            "Le concept clé de React est la gestion de l'état et le rendu basé sur des composants."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que JSX ?",
+          "reponses": [
+            "JSX est une extension de syntaxe pour JavaScript qui ressemble à XML/HTML. Il est utilisé avec React pour décrire l'interface utilisateur."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment Webpack va-t-il transformer React.createElement ?",
+          "reponses": [
+            "Webpack va transformer React.createElement en appels de fonctions optimisés pour le rendu des composants React."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu m'as parlé d'état, c'est lié aux hooks, c'est quoi un hook en React ?",
+          "reponses": [
+            "Un hook en React est une fonction qui permet d'utiliser des fonctionnalités d'état et d'autres fonctionnalités de React sans écrire de classes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "C'est quoi l'API de useState (prend quoi en paramètre) ?",
+          "reponses": [
+            "L'API useState prend en paramètre la valeur initiale de l'état et retourne un tableau avec la valeur actuelle de l'état et une fonction pour mettre à jour cette valeur."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Si mon état est une valeur primitive, j'ai souvent pas trop de soucis, mais si c'est non primitif, je dois faire attention à quoi ?",
+          "reponses": [
+            "Si l'état est non primitif, il faut faire attention à ne pas muter directement l'objet ou le tableau, mais plutôt à créer une nouvelle copie avec les modifications."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "J'appelle le stateur avec un nouvel état, qu'est-ce qui se passe côté React ?",
+          "reponses": [
+            "React déclenche un nouveau rendu du composant avec le nouvel état."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "UseEffect ? C'est quoi son interface / son API ? Qu'est-ce que ça prend comme paramètre ?",
+          "reponses": [
+            "useEffect prend une fonction de callback comme premier paramètre, qui contient le code à exécuter après chaque rendu, et un tableau de dépendances en second paramètre."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "L'effet est lancé à quel moment pour le composant ?",
+          "reponses": [
+            "L'effet est lancé après chaque rendu du composant."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Si j'ai un élément de mon tableau qui change, ... et de façon synchrone ou asynchrone ?",
+          "reponses": [
+            "Si un élément change, React met à jour le DOM de manière efficace, en utilisant un algorithme de diff pour minimiser les changements nécessaires."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu t'es intéressé comment React va mettre à jour le DOM ? Et sur quoi ça se base ?",
+          "reponses": [
+            "React met à jour le DOM en se basant sur un Virtual DOM, qui est une représentation légère du DOM réel. Il utilise un algorithme de diff pour déterminer les changements nécessaires."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "La propriété KEY permet de distinguer quels éléments dans une liste ? Faut mettre quoi comme valeur ?",
+          "reponses": [
+            "La propriété key doit recevoir une valeur unique pour chaque élément de la liste afin que React puisse suivre les éléments et optimiser les mises à jour."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Sur React, de ton expérience, tu as utilisé quelle librairie ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "React Router ? As-tu utilisé React Router ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu utilisé React Router ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que React ?",
+          "reponses": [
+            "React est une bibliothèque JavaScript open-source développée par Facebook pour construire des interfaces utilisateur. Elle est principalement utilisée pour développer des applications web monopage où les données changent fréquemment."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que sont les concepts clés de React ?",
+          "reponses": [
+            "React est utilisé pour construire des applications web interactives et dynamiques, notamment des applications monopage (SPA), des dashboards, des interfaces utilisateur complexes, et des applications mobiles via React Native. Les concepts clés incluent la réutilisabilité des composants, la performance grâce au Virtual DOM, un écosystème riche, et une grande communauté."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "C’est quoi le JSX ?",
+          "reponses": [
+            "JSX (JavaScript XML) est une extension de syntaxe pour JavaScript qui ressemble à HTML. Elle permet d'écrire des balises HTML à l'intérieur du code JavaScript, ce qui rend le code plus lisible et plus facile à écrire."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment webpack transforme le JSX ?",
+          "reponses": [
+            "Webpack transforme le JSX en JavaScript standard en utilisant Babel, ce qui permet aux navigateurs de comprendre et d'exécuter le code. Webpack gère le bundling des fichiers, tandis que Babel transpile le code moderne en une version compatible avec les anciens navigateurs."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu’est-ce qu’un hook en React ?",
+          "reponses": [
+            "Un hook en React est une fonction spéciale qui permet d'utiliser des fonctionnalités de React, comme l'état et le cycle de vie, dans des composants fonctionnels."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est l’API de useState (prend en paramètre) ?",
+          "reponses": [
+            "L'API useState prend en paramètre la valeur initiale de l'état et retourne un tableau contenant la valeur actuelle de l'état et une fonction pour la mettre à jour."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Si mon état est une valeur primitive, j'ai souvent pas trop de soucis, mais si c'est non primitif, je dois faire attention à pas mal de choses. Lesquelles ? Et pourquoi ?",
+          "reponses": [
+            "Pour les valeurs non primitives (objets ou tableaux), il faut faire attention à ne pas les muter directement. Il est important de créer une nouvelle copie avant de les mettre à jour pour éviter des comportements inattendus."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "J'appelle le state setter avec un nouvel état, qu'est-ce qui se passe côté React ?",
+          "reponses": [
+            "React met à jour l'état interne du composant, planifie un re-rendu du composant, et met à jour le DOM réel pour refléter les changements nécessaires."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est l’API de useEffect (prend en paramètre) ?",
+          "reponses": [
+            "useEffect prend deux paramètres : une fonction de callback qui contient l'effet à exécuter et un tableau de dépendances qui surveille les changements pour déclencher l'effet."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "À quel moment est lancé l’effet pour le composant ?",
+          "reponses": [
+            "L'effet est lancé après chaque rendu du composant, ou uniquement à l'initialisation si le tableau de dépendances est vide."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment React met à jour le DOM ? Et sur quoi ça se base ?",
+          "reponses": [
+            "React met à jour le DOM en se basant sur une comparaison entre le Virtual DOM et le DOM réel. Il identifie les différences et applique les changements nécessaires de manière optimisée."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "La propriété key permet de distinguer quels éléments dans une liste ? Que faut-il mettre comme valeur ?",
+          "reponses": [
+            "La propriété key doit recevoir une valeur unique pour chaque élément de la liste afin que React puisse suivre les éléments et optimiser les mises à jour."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu utilisé React Router ?",
+          "reponses": [
+            "React Router est une bibliothèque pour gérer les routes dans une application React, permettant de naviguer entre différentes vues."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu utilisé React Router Form ?",
+          "reponses": [
+            "React Router Form est une bibliothèque qui facilite la gestion des formulaires dans React, en intégrant étroitement la gestion des routes et des soumissions de formulaires."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Sous quelle forme le navigateur utilise React et JSX ?",
+          "reponses": [
+            "Le code React et JSX est transpilé en JavaScript standard par des outils comme Babel et Webpack, ce qui permet aux navigateurs de comprendre et d'exécuter le code."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Springboot : utilisation intensive - Pourquoi l'utilise-t-on ?",
+          "reponses": [
+            "Spring Boot est utilisé pour démarrer rapidement des projets en fournissant un squelette d'application et en simplifiant la configuration."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Springboot : utilisation intensive - Qu'est-ce que springboot starter ?",
+          "reponses": [
+            "Un Spring Boot Starter est un ensemble de dépendances préconfigurées qui permettent de démarrer rapidement un projet avec des fonctionnalités spécifiques."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Testing : passe bcp de temps à faire des tests automatisés - quel genre de tests tu écris ?",
+          "reponses": [
+            "Je passe beaucoup de temps à écrire des tests unitaires, des tests d'intégration et des tests fonctionnels."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est ton expérience avec springboot ? Quels sont tes retours ?",
+          "reponses": [
+            "Mon expérience avec Spring Boot est positive. Il permet de démarrer rapidement un projet, fournit un squelette d'application, et simplifie la configuration."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'un starter ?",
+          "reponses": [
+            "Un Spring Boot Starter est un ensemble de dépendances préconfigurées qui permettent de démarrer rapidement un projet avec des fonctionnalités spécifiques."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles base de données ? xml ou annotation ? classe pass. permet de savoir quelle base on utilise.",
+          "reponses": [
+            "Les annotations ou les fichiers XML de configuration permettent de spécifier quelle base de données utiliser dans une application Spring."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Que penses-tu des tests ?",
+          "reponses": [
+            "Les tests sont essentiels pour assurer la qualité et la stabilité du code. Ils permettent de détecter les régressions et de garantir que les fonctionnalités fonctionnent comme prévu."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Migration springbatch tu en as pensé quoi ? est-ce difficile ? risqué ? qu'est-ce qui va me mettre en confiance dans ces montées de versions ?",
+          "reponses": [
+            "La migration avec Spring Batch peut être complexe et risquée, surtout si elle implique des changements majeurs. Ce qui met en confiance, c'est une bonne couverture de tests, une documentation claire, et un plan de migration bien défini."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Différence entre « égal égal » et « equals » ?",
+          "reponses": [
+            "« == » compare les références d'objets, tandis que « equals » compare le contenu des objets."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Avez-vous fait des tests unitaires ?",
+          "reponses": [
+            "Oui, j'ai écrit des tests unitaires pour vérifier le bon fonctionnement des composants individuels de mes applications."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment peut-on empêcher qu'une méthode soit overridée ?",
+          "reponses": [
+            "En utilisant le mot-clé final."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Intérêt de spring boot ?",
+          "reponses": [
+            "Spring Boot permet de démarrer rapidement un projet en fournissant un squelette d'application et en simplifiant la configuration."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Combien de tests unitaires pour couvrir une méthode if ?",
+          "reponses": [
+            "Il faut généralement 2 tests unitaires pour couvrir une méthode if."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les avantages de spring ?",
+          "reponses": [
+            "Spring offre une inversion de contrôle, une gestion des dépendances, et une modularité accrue."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le scope d'un bean par défaut ?",
+          "reponses": [
+            "Le scope par défaut d'un bean est singleton."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les verbes que tu as utilisé quand tu as travaillé sur les API REST ?",
+          "reponses": [
+            "GET, POST, PUT, DELETE."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Différence get vs post ?",
+          "reponses": [
+            "GET est utilisé pour récupérer des données, tandis que POST est utilisé pour envoyer des données au serveur."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'apporte les Starter de Spring Boot (exemple starter jpa) ?",
+          "reponses": [
+            "Les starters de Spring Boot fournissent des configurations et des dépendances préconfigurées pour démarrer rapidement avec des fonctionnalités spécifiques; comme JPA pour la gestion des bases de données."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment est gérée la conf (classpath) ?",
+          "reponses": [
+            "La configuration dans Spring Boot est généralement gérée via des fichiers de configuration externes comme application.properties ou application.yml; ou via des annotations dans le code."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi utiliser un serveur de config (Spring Cloud) ? (avantages / inconvénients)",
+          "reponses": [
+            "Utiliser un serveur de configuration avec Spring Cloud permet de centraliser et de gérer les configurations de manière dynamique et flexible. Avantages : centralisation; gestion dynamique. Inconvénients : complexité accrue; dépendance au serveur de configuration."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Utilité de Spring Cloud Netflix ? (Zuul)",
+          "reponses": [
+            "Spring Cloud Netflix; incluant Zuul; offre des outils pour la découverte de services; le routage; et la résilience dans des architectures microservices."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Comment as-tu procédé pour faire les migrations techniques (Spring Boot 1 vers 2) ?",
+          "reponses": [
+            "Pour migrer de Spring Boot 1 vers 2; il faut mettre à jour les dépendances; ajuster les configurations; et tester rigoureusement pour s'assurer de la compatibilité."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Migration Spring – comment m’assurer qu’une montée de version va bien se passer ?",
+          "reponses": [
+            "Pour assurer une montée de version réussie; il faut effectuer des tests fonctionnels (comme Selenium); des tests d’intégration; et des tests unitaires; ainsi que vérifier la documentation et les changements de configuration."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faire des tests d’intégration ?",
+          "reponses": [
+            "Les tests d’intégration permettent de vérifier que différents modules ou services fonctionnent correctement ensemble; assurant la cohérence et la robustesse de l'application."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que c'est spring ?",
+          "reponses": [
+            "Spring est un framework Java pour le développement d'applications d'entreprise; offrant des fonctionnalités pour l'injection de dépendances; la gestion des transactions; et plus encore."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels types de starter avez-vous utilisés sur la partie Springboot ?",
+          "reponses": [
+            "J'ai utilisé des starters comme Spring Web; Spring Data JPA; Spring Security; etc."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "L'injection de dépendance - avez-vous déjà utilisé des moteurs d'injection de dépendance.",
+          "reponses": [
+            "Oui; j'ai utilisé des frameworks comme Spring pour l'injection de dépendances."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "En hibernate qu'est ce que le lazyloading ?",
+          "reponses": [
+            "Le lazy loading en Hibernate diffère le chargement des objets liés jusqu'à ce qu'ils soient nécessaires."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Inversion de contrôle (injection de dépendance - le fait de pas avoir à instancier chaque élément mais dire qu'on en a besoin)",
+          "reponses": [
+            "L'inversion de contrôle permet de découpler les composants en fournissant les dépendances nécessaires sans que les composants aient à les instancier eux-mêmes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Programation orientée aspect ?",
+          "reponses": [
+            "La programation orientée aspect permet de séparer les préoccupations transversales (comme la journalisation) du code principal en utilisant des aspects."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Au niveau de l'application; avez-vous sécurisé vos appels webservices ?",
+          "reponses": [
+            "Oui; en utilisant des mécanismes comme l'authentification; l'autorisation; et le chiffrement des données."
+          ],
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "nom": "Git",
+      "questions": [
+        {
+          "question": "Comment modifier l'historique d'une branche en Git ?",
+          "reponses": [
+            "L'historique d'une branche peut être modifié avec 'git rebase'."
+          ],
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle est la différence entre un merge et un rebase en Git ?",
+          "reponses": [
+            "Un merge fusionne les branches, tandis qu'un rebase réécrit l'historique."
+          ],
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "nom": "Java",
+      "questions": [
+        {
+          "question": "Quelle version de Java 8 as-tu utilisé ? Quelle est la différence entre Java 7 et Java 8 ?",
+          "reponses": [
+            "Méthodes lambda, méthodes d'interface, références de méthodes, classe Optional"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu peux me prédire ce que fait cette fonction derrière ? Ça prend un paramètre et ça retourne un autre paramètre.",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la différence entre FlatMap et Map ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Supposons que j'ai une liste de produits à trier, comment puis-je trier cette liste par ordre ?",
+          "reponses": [
+            "Collections.sort"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu crées une interface fonctionnelle. Quelles sont les étapes pour créer l'interface ?",
+          "reponses": [
+            "Annotation FunctionalInterface, une méthode abstraite"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la différence entre une exception vérifiée (checked) et une exception non vérifiée (unchecked) ?",
+          "reponses": [
+            "Checked Exception et Unchecked Exception. La deuxième est une RuntimeException et n'est pas vérifiée à la compilation par un bloc try-catch."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Connais-tu le problème de famine ou d'exclusion mutuelle ?",
+          "reponses": [
+            "Un thread monopolise la ressource, ce qui peut créer une situation de 'famine'."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Multithreading ?",
+          "reponses": [
+            "Pas trop (mais pas à l'usage)"
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous avez connaissance des grandes nouveautés de Java 21 ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu en tête les grosses apports des différentes versions ? Java 17, Java 21.",
+          "reponses": [
+            "Java 17 : var, switch improvements, JVM enhancements. Java 21 : Further JVM improvements, pattern matching."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "La différence entre classe et objet ? Peux-tu me donner un exemple ?",
+          "reponses": [
+            "Une classe est un modèle ou un plan pour créer des objets. Par exemple, une classe 'Voiture' peut avoir des attributs comme 'marque' et 'modèle'. Un objet est une instance de cette classe, comme une 'Voiture' spécifique avec 'marque' = 'Toyota' et 'modèle' = 'Corolla'."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une interface ?",
+          "reponses": [
+            "Une interface est un contrat qui définit un ensemble de méthodes que les classes implémentant cette interface doivent fournir."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Et une interface fonctionnelle ?",
+          "reponses": [
+            "Une interface fonctionnelle est une interface avec une seule méthode abstraite, souvent utilisée avec les lambdas en Java."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "La notion d'immutabilité, ça te parle ?",
+          "reponses": [
+            "Oui, l'immutabilité signifie qu'un objet ne peut pas être modifié après sa création."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Ça a un rapport avec une classe scellée ?",
+          "reponses": [
+            "Oui, une classe scellée (sealed class) est une classe dont l'héritage est restreint, ce qui peut aider à garantir l'immutabilité."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Fais-tu une différence entre agrégation et héritage dans l'approche objet ?",
+          "reponses": [
+            "Oui, l'agrégation est une relation 'a' ou 'contient', tandis que l'héritage est une relation 'est un'."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Les gars de Renault posaient ces questions. Sur les clefs : protected and co.",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Souvent, pose des questions, comment fonctionne la mémoire sur Java.",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Notion de volatile",
+          "reponses": [
+            "Le mot-clé 'volatile' est utilisé pour indiquer que une variable peut être modifiée par plusieurs threads."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une méthode hashCode ? Faut-il l'implémenter ou par défaut ?",
+          "reponses": [
+            "La méthode hashCode() renvoie un code de hachage pour l'objet. Elle doit être implémentée si equals() est redéfinie."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Equals ?",
+          "reponses": [
+            "La méthode equals() est utilisée pour comparer deux objets pour l'égalité."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Si tu as un objet HashMap et que tu dois insérer un autre objet, qu'est-ce que tu dois utiliser pour savoir s'il est présent ?",
+          "reponses": [
+            "Utilise la méthode containsKey() pour vérifier si une clé est présente dans le HashMap."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi JavaScript est un langage fonctionnel ?",
+          "reponses": [
+            "JavaScript est considéré comme un langage fonctionnel parce qu'il supporte les fonctions de première classe, les fonctions anonymes, et les fonctions comme arguments et valeurs de retour."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la différence entre type primitif et non primitif ?",
+          "reponses": [
+            "Les types primitifs sont immuables et incluent Number, String, Boolean, Null, Undefined, Symbol, et BigInt. Les types non primitifs (objets) sont mutables et incluent Object, Array, Function, Date, RegExp, Map, et Set."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "La différence entre variables primitives et non-primitives ?",
+          "reponses": [
+            "Les variables primitives sont immuables et incluent Number, String, Boolean, Null, Undefined, Symbol, et BigInt. Les variables non primitives (objets) sont mutables et incluent Object, Array, Function, Date, RegExp, Map, et Set."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "JAVA 11 - Et entre 11 et 17 ? As-tu vu des différences ?",
+          "reponses": [
+            "Entre Java 11 et Java 17, il y a plusieurs différences, notamment des améliorations de performance, des nouvelles fonctionnalités de langage comme les records, les text blocks, et des améliorations dans les API existantes."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la version de java avec laquelle tu es le plus autonome ?",
+          "reponses": [
+            "Je maîtrise bien Java 8. Pour Java 11, je maîtrise moins l'API HTTP."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "As-tu utilisé des nouvelles fonctionnalités java 11 ?",
+          "reponses": [
+            "Oui, j'ai utilisé des fonctionnalités comme les améliorations de performance, les text blocks, et la transformation de stream en liste."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont les nouveautés du langage 11 ?",
+          "reponses": [
+            "Les nouveautés de Java 11 incluent les performances améliorées, les text blocks pour les chaînes de caractères multilignes, et la méthode toList() pour transformer un stream en liste."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Connaissez-vous des collections en Java ?",
+          "reponses": [
+            "Oui, Java propose plusieurs types de collections, comme List, Set, Map, Queue, etc."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles collections avez-vous utilisées ?",
+          "reponses": [
+            "J'ai utilisé des collections comme Set, HashMap, Map, Queue."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Tu as utilisé quelle version de Java 8 ? différence Java 7 vs Java 8 ?",
+          "reponses": [
+            "Java 8 a introduit les méthodes lambda, les méthodes d'interface, les références de méthodes, et la classe Optional."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Supposons que j'ai une liste de produits à trier comment je peux trier cette liste par ordre ?",
+          "reponses": [
+            "En utilisant Collections.sort."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Connais-tu le problème de Famine ? d'exclusion mutuelle ?",
+          "reponses": [
+            "La famine se produit lorsqu'un thread monopolise une ressource, empêchant d'autres threads d'y accéder. L'exclusion mutuelle est un mécanisme pour garantir qu'une seule ressource est utilisée par un seul thread à la fois."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Avez-vous déjà fait de la programmation concurrentielle ?",
+          "reponses": [
+            "Oui, j'ai déjà fait de la programmation concurrente."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Les nouveautés du Java 17 (perf / Text Block / NullPointer / .toList() / Classe scellée)",
+          "reponses": [
+            "Les nouveautés de Java 17 incluent des améliorations de performance; les text blocks pour les chaînes de caractères multilignes; des améliorations de NullPointerException; la méthode toList() pour les streams; et les classes scellées."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi de meilleure perf – Java 17 ?",
+          "reponses": [
+            "Java 17 offre des améliorations de performance grâce à des optimisations du JVM; des nouvelles fonctionnalités de langage; et des améliorations dans la gestion de la mémoire."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont les nouveautés java 8 ? A part lambda et streams...",
+          "reponses": [
+            "En plus des lambdas et des streams; Java 8 a introduit les méthodes par défaut dans les interfaces; la nouvelle API de date et heure (java.time); et des améliorations de performance."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Types valeurs et types références ?",
+          "reponses": [
+            "Types primitifs (valeurs) : int; double; boolean; etc. Types références (objets) : String; ArrayList; etc."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Le string c'est un type comment ?",
+          "reponses": [
+            "Le type String est un type référence (objet) en Java."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Différence list et set ?",
+          "reponses": [
+            "List : ordonnée; permet les doublons. Set : non ordonnée; ne permet pas les doublons."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "StringBuffer; String; StringBuilder",
+          "reponses": [
+            "StringBuilder est non thread-safe; StringBuffer est thread-safe; String est immuable."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Sur quelle version de java ?",
+          "reponses": [
+            "Je travaille principalement avec Java 8; mais je suis également familier avec les versions plus récentes comme Java 11 et 17."
+          ],
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "nom": "Clean Code",
+      "questions": [
+        {
+          "question": "Si je te dis SOLID, ça te fait penser à quoi ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les principes SOLID ?",
+          "reponses": [
+            "Les principes SOLID sont : Single Responsibility Principle; Open/Closed Principle; Liskov Substitution Principle; Interface Segregation Principle; Dependency Inversion Principle."
+          ],
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "nom": "Architecture",
+      "questions": [
+        {
+          "question": "Comment avez-vous mis en place l'architecture hexagonale ? Concrètement ?",
+          "reponses": [],
+          "difficulte": 3
+        },
+        {
+          "question": "Sur Spring Core, y a-t-il des standards à respecter ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Vous pouvez m'expliquer ce qu'est le builder pattern ?",
+          "reponses": [
+            "Le builder pattern est un design pattern utilisé pour construire un objet complexe étape par étape."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Une classe avec 3 attributs : nom/prénom/adresse, le builder il va servir à quoi ?",
+          "reponses": [
+            "Le builder va permettre de construire une instance de la classe de manière flexible et lisible, en définissant chaque attribut séparément."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Y a-t-il des design patterns que tu utilises souvent ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'un design pattern ?",
+          "reponses": [
+            "Un design pattern est une solution réutilisable à un problème récurrent dans le développement logiciel."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont les architectures que tu connais ?",
+          "reponses": [],
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une architecture hexagonale ? C'est du micro-services ?",
+          "reponses": [
+            "L'architecture hexagonale est une approche qui favorise l'indépendance des composants et peut être utilisée dans les microservices."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Quel design pattern ont va utiliser pour mettre en œuvre l'ouverture - fermeture de solid.",
+          "reponses": [
+            "Le design pattern Strategy peut être utilisé pour mettre en œuvre l'ouverture - fermeture de SOLID."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Le design pattern strategy ?",
+          "reponses": [
+            "Le design pattern Strategy permet de définir une famille d'algorithmes; encapsuler chacun d'eux; et les rendre interchangeables."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Le design pattern derrière ? (Proxy)",
+          "reponses": [
+            "Le design pattern Proxy est utilisé pour fournir un substitut ou un intermédiaire pour accéder à un autre objet."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Cité 2 design pattern",
+          "reponses": [
+            "Deux design patterns sont Builder (pour construire des objets complexes) et Singleton (pour garantir une seule instance)."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Builder (construire un objet en plusieurs appels de méthode)",
+          "reponses": [
+            "Le design pattern Builder permet de construire un objet complexe étape par étape."
+          ],
+          "difficulte": 2
+        },
+        {
+          "question": "Archi hexa",
+          "reponses": [
+            "L'architecture hexagonale est une approche qui divise une application en couches distinctes; comme le contrôleur; le service; et la couche de données."
+          ],
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
