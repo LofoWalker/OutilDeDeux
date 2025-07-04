@@ -12,11 +12,19 @@
             <!-- Les onglets de catégories seront générés ici -->
         </nav>
     </header>
+    <button id="show-summary-btn" class="summary-btn">Résumé</button>
+    <section id="summary-panel" class="summary-panel" style="display:none;"></section>
     <main>
-        <section id="questions-list">
-            <!-- Les questions de la catégorie sélectionnée seront affichées ici -->
+        <section id="questions-list" class="questions-list">
+            <!-- Les cartes questions seront injectées ici par JS -->
         </section>
+        <!-- Rien à ajouter ici pour la zone commentaire, elle est générée dynamiquement par JS dans chaque carte question. -->
     </main>
+    <aside id="general-notes-panel">
+        <h3>Appréciations générales</h3>
+        <textarea id="general-notes" placeholder="Notes générales sur le candidat, l'entretien, etc."></textarea>
+        <span id="general-notes-saved">Enregistré !</span>
+    </aside>
     <script src="js/main.js"></script>
 </body>
 </html>

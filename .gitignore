@@ -1,0 +1,51 @@
+# Node/npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Environnements Python
+venv/
+.env
+__pycache__/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Autres fichiers temporaires
+*.swp
+*.swo
+
+# Build/Dist
+/dist/
+/build/
+
+# Fichiers système
+.idea/
+*.iml
+
+# Fichiers de backup
+*~
+
+# Fichiers personnels
+*.bak
+*.tmp
+
+# Fichiers de test
+coverage/
+
+# Fichiers de configuration sensibles
+.env.*
