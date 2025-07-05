@@ -41,10 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     generalNotes.value = localStorage.getItem('general_notes') || '';
     generalNotes.addEventListener('input', function () {
         localStorage.setItem('general_notes', generalNotes.value);
-        generalNotesSaved.style.display = 'inline';
-        setTimeout(() => { generalNotesSaved.style.display = 'none'; }, 1200);
     });
-    generalNotesSaved.style.display = 'none';
 });
 
 let QUESTIONS_PER_PAGE = 10;
@@ -172,19 +169,12 @@ function renderQuestions(category, idx, categories) {
         commentInput.placeholder = 'Ajoutez un commentaire...';
         commentInput.value = getSavedComment(q.id !== undefined ? q.id : qIdx, category.nom || idx);
 
-        const commentSaved = document.createElement('span');
-        commentSaved.className = 'comment-saved';
-        commentSaved.textContent = 'Commentaire enregistré !';
-
         commentInput.addEventListener('input', function () {
             saveComment(q.id !== undefined ? q.id : qIdx, commentInput.value, category.nom || idx);
-            commentSaved.style.display = 'inline';
-            setTimeout(() => { commentSaved.style.display = 'none'; }, 1200);
         });
 
         commentSection.appendChild(commentLabel);
         commentSection.appendChild(commentInput);
-        commentSection.appendChild(commentSaved);
         block.appendChild(commentSection);
 
         list.appendChild(block);
