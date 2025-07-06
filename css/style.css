@@ -20,12 +20,13 @@ header {
     flex-wrap: wrap;
     border-radius: 16px;
     padding: 0.5rem 0.5rem 0 0.5rem;
-    box-shadow: 0 2px 8px rgba(8,197,209,0.05);
+    box-shadow: 0 2px 8px rgba(8, 197, 209, 0.05);
 }
 
 .tab {
     background: none;
-    color: #fff;    border: none;
+    color: #fff;
+    border: none;
     padding: 0.7rem 2.2rem 0.7rem 2.2rem;
     border-radius: 12px 12px 0 0;
     cursor: pointer;
@@ -44,7 +45,7 @@ header {
     color: #00353F;
     font-weight: bold;
     border-bottom: 2px solid #00353F;
-    box-shadow: 0 4px 16px rgba(8,197,209,0.08);
+    box-shadow: 0 4px 16px rgba(8, 197, 209, 0.08);
     z-index: 2;
 }
 
@@ -65,23 +66,27 @@ header {
 .question-block {
     background: #f9f9fb;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
     margin-bottom: 2rem;
     padding: 1.2rem 1.5rem;
     border: 1px solid #e3e6ee;
     transition: box-shadow 0.2s, border 0.2s;
-    border-left: 8px solid #00353F; /* Couleur par défaut (difficulté 1) */
+    border-left: 8px solid #00353F;
+    /* Couleur par défaut (difficulté 1) */
 }
 
 .question-block.difficulte-1 {
     border-left-color: #00353F;
 }
+
 .question-block.difficulte-2 {
     border-left-color: #FFBF66;
 }
+
 .question-block.difficulte-3 {
     border-left-color: #D46F4D;
 }
+
 .question-block.difficulte-4 {
     border-left-color: #430C05;
 }
@@ -110,7 +115,9 @@ header {
     cursor: pointer;
     transition: background 0.2s, color 0.2s, border 0.2s;
 }
-.pagination-btn.active, .pagination-btn:hover {
+
+.pagination-btn.active,
+.pagination-btn:hover {
     background: #00353F;
     color: #fff;
     border: 1px solid #00353F;
@@ -123,18 +130,21 @@ header {
     font-size: 1.4rem;
     user-select: none;
 }
+
 .star {
     color: #bbb;
     cursor: pointer;
     transition: color 0.15s;
 }
+
 .star.filled {
     color: #FFBF66;
 }
 
 #average-circle {
     position: fixed;
-    bottom: 7.7rem; /* décalé pour laisser de l'espace au bouton reset */
+    bottom: 7.7rem;
+    /* décalé pour laisser de l'espace au bouton reset */
     left: 2.2rem;
     width: 60px;
     height: 60px;
@@ -146,7 +156,7 @@ header {
     justify-content: center;
     font-size: 1.25rem;
     font-weight: bold;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.13);
     z-index: 1000;
     user-select: none;
     pointer-events: none;
@@ -165,49 +175,22 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 2.1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.13);
     z-index: 1001;
     border: 2px solid #00353F;
     cursor: pointer;
     transition: background 0.2s, color 0.2s, border 0.2s;
 }
+
 #reset-results-btn:hover {
     background: #00353F;
     color: #fff;
     border: 2px solid #00353F;
 }
+
 #reset-results-btn:active {
     background: #b3eaf0;
     color: #00353F;
-}
-
-.difficulty-filter-btn {
-    background: none;
-    border: 2px solid #00353F;
-    color: #00353F;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    font-weight: bold;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background 0.2s, color 0.2s, border 0.2s;
-    margin-bottom: 0.2rem;
-    outline: none;
-}
-.difficulty-filter-btn.active, .difficulty-filter-btn:hover {
-    background: #00353F;
-    color: #fff;
-    border: 2px solid #00353F;
-}
-.difficulty-filter-btn:last-child {
-    border: 2px solid #bbb;
-    color: #bbb;
-}
-.difficulty-filter-btn:last-child.active, .difficulty-filter-btn:last-child:hover {
-    background: #bbb;
-    color: #fff;
-    border: 2px solid #bbb;
 }
 
 .comment-section {
@@ -218,9 +201,11 @@ header {
     flex-direction: column;
     gap: 0.5rem;
 }
+
 .comment-label {
     display: none;
 }
+
 .comment-input {
     width: 97%;
     min-height: 2.2em;
@@ -235,16 +220,10 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
 .comment-input:focus {
     border: 1.5px solid #00353F;
     outline: none;
-}
-.comment-saved {
-    color: #43a047;
-    font-size: 0.93rem;
-    margin-top: 0.1rem;
-    font-style: italic;
-    display: none;
 }
 
 .summary-btn {
@@ -259,12 +238,14 @@ header {
     padding: 0.5rem 1.2rem;
     font-size: 1.1rem;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: background 0.2s;
 }
+
 .summary-btn:hover {
     background: #f0f0f0;
 }
+
 .summary-panel {
     position: fixed;
     top: 5rem;
@@ -275,29 +256,35 @@ header {
     background: #fff;
     border: 1px solid #bbb;
     border-radius: 1rem;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.13);
     padding: 1.5rem;
     z-index: 200;
 }
+
 .summary-category {
     margin-bottom: 1.5rem;
 }
+
 .summary-category h3 {
     margin: 0 0 0.5rem 0;
     font-size: 1.15rem;
     color: #2a4d7a;
 }
+
 .summary-question {
     margin-bottom: 1rem;
     padding-bottom: 0.7rem;
     border-bottom: 1px solid #eee;
 }
+
 .summary-question:last-child {
     border-bottom: none;
 }
+
 .summary-question b {
     color: #1a7a3a;
 }
+
 .summary-question i {
     color: #888;
 }
@@ -310,10 +297,11 @@ header {
     padding: 0.4rem 1.1rem;
     font-size: 1rem;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: background 0.2s;
     margin-bottom: 1rem;
 }
+
 .copy-summary-btn:hover {
     background: #1a7a3a;
 }
@@ -332,11 +320,13 @@ header {
     flex-direction: column;
     gap: 0.7rem;
 }
+
 #general-notes-panel h3 {
     margin: 0 0 0.5rem 0;
     font-size: 1.08rem;
     color: #00353F;
 }
+
 #general-notes {
     width: 100%;
     min-height: 90%;
@@ -349,6 +339,7 @@ header {
     transition: border 0.2s;
     box-sizing: border-box;
 }
+
 #general-notes:focus {
     border: 1.5px solid #00353F;
     outline: none;

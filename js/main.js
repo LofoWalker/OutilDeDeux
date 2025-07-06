@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const summaryBtn = document.getElementById('show-summary-btn');
     const summaryPanel = document.getElementById('summary-panel');
     let summaryVisible = false;
-    summaryBtn.addEventListener('click', function(e) {
+    summaryBtn.addEventListener('click', function (e) {
         e.stopPropagation();
         if (summaryPanel.style.display === 'block') {
             summaryPanel.style.display = 'none';
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     // Ferme le résumé si on clique ailleurs
-    document.addEventListener('click', function(e) {
+    document.addEventListener('click', function (e) {
         if (summaryVisible && summaryPanel.style.display === 'block') {
             if (!summaryPanel.contains(e.target) && e.target !== summaryBtn) {
                 summaryPanel.style.display = 'none';
@@ -48,14 +48,6 @@ let QUESTIONS_PER_PAGE = 10;
 let currentPage = 1;
 let currentCategory = null;
 let currentCategories = null;
-
-function updateQuestionsPerPageAndRender() {
-    QUESTIONS_PER_PAGE = calculateQuestionsPerPage();
-    currentPage = 1;
-    if (currentCategory && currentCategories) {
-        renderQuestions(currentCategory, 0, currentCategories);
-    }
-}
 
 function renderTabs(categories) {
     const tabsContainer = document.getElementById('categories-tabs');
@@ -111,7 +103,7 @@ function renderQuestions(category, idx, categories) {
         const block = document.createElement('div');
         let diffClass = '';
         const diff = Number(q.difficulte);
-        if ([1,2,3,4].includes(diff)) {
+        if ([1, 2, 3, 4].includes(diff)) {
             diffClass = ` difficulte-${diff}`;
         }
         block.className = `question-block${diffClass}`;
@@ -131,13 +123,13 @@ function renderQuestions(category, idx, categories) {
             star.className = 'star' + (i <= savedRating ? ' filled' : '');
             star.textContent = '★';
             star.dataset.value = i;
-            star.addEventListener('click', function() {
+            star.addEventListener('click', function () {
                 setRating(block, i);
             });
-            star.addEventListener('mouseover', function() {
+            star.addEventListener('mouseover', function () {
                 updateStars(block, i);
             });
-            star.addEventListener('mouseleave', function() {
+            star.addEventListener('mouseleave', function () {
                 updateStars(block, block.dataset.rating || savedRating);
             });
             stars.appendChild(star);
@@ -269,7 +261,7 @@ function showAverageCircle(avg) {
         resetBtn.id = 'reset-results-btn';
         resetBtn.title = 'Réinitialiser les notes';
         resetBtn.innerHTML = '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>';
-        resetBtn.addEventListener('click', function() {
+        resetBtn.addEventListener('click', function () {
             if (!confirm('Êtes-vous sûr de vouloir tout réinitialiser ? Cette action supprimera toutes vos notes et commentaires.')) return;
             // Supprime toutes les notes, commentaires et appréciations générales du localStorage
             const keysToRemove = [];
@@ -297,10 +289,10 @@ function getSavedComment(id, cat) {
 }
 
 window.currentDifficultyFilter = null;
-function setDifficultyFilter(dif) {}
+function setDifficultyFilter(dif) { }
 
 // Génération d'un rapport JS (exemple à placer dans la console ou une fonction dédiée)
-window.generateReport = function(categories) {
+window.generateReport = function (categories) {
     const report = [];
     categories.forEach((cat, idx) => {
         cat.questions.forEach((q, qIdx) => {
@@ -341,7 +333,7 @@ function showSummary(categories) {
     copyBtn.className = 'copy-summary-btn';
     copyBtn.style.marginBottom = '1rem';
     copyBtn.style.float = 'right';
-    copyBtn.addEventListener('click', function() {
+    copyBtn.addEventListener('click', function () {
         // Génère le texte à copier
         let text = '';
         for (const cat in grouped) {
