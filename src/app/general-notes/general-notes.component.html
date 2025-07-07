@@ -1,9 +1,15 @@
-<aside class="general-notes">
-  <h3>Notes générales</h3>
-  <textarea
-    [(ngModel)]="generalNotes"
-    (ngModelChange)="saveGeneralNotes()"
-    placeholder="Prendre des notes générales sur l'entretien..."
-    rows="12"
-  ></textarea>
+<aside class="general-notes" [class.minimized]="isMinimized">
+  <div class="notes-header">
+    <h3>Notes générales</h3>
+    <button class="minimize-btn" (click)="toggleMinimize()" [attr.aria-label]="isMinimized ? 'Agrandir les notes' : 'Réduire les notes'">
+      <fa-icon [icon]="faPenToSquare" size="sm"></fa-icon>
+    </button>
+  </div>
+  <ng-container *ngIf="!isMinimized">
+    <textarea
+      [(ngModel)]="generalNotes"
+      (ngModelChange)="saveGeneralNotes()"
+      placeholder="Prendre des notes générales sur l'entretien..."
+      rows="12"></textarea>
+  </ng-container>
 </aside>

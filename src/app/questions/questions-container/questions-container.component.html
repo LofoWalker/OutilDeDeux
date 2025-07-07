@@ -3,6 +3,7 @@
   [activeCategory]="activeCategory"
   (categoryChange)="onCategoryChange($event)"
   (exportSummaryClicked)="onExportSummary()"
+  (notesToggleClicked)="toggleGeneralNotes()"
 ></app-header>
 <interview-summary
   #interviewSummary
@@ -31,5 +32,9 @@
       Toutes difficultés
     </button>
   </div>
-  <questions-list [questionsData]="filteredQuestionsData" [getDifficulteLabel]="getDifficulteLabel.bind(this)"></questions-list>
+  <questions-list
+    [questionsData]="filteredQuestionsData"
+    [getDifficulteLabel]="getDifficulteLabel.bind(this)"
+    [generalNotesVisible]="generalNotesVisible"
+  ></questions-list>
 </main>

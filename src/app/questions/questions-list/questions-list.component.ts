@@ -16,6 +16,7 @@ import { QuestionsService } from '../questions/questions.service';
 export class QuestionsListComponent implements OnInit, OnChanges {
   @Input() questionsData!: QuestionsData;
   @Input() getDifficulteLabel: (diff: number) => string = () => '';
+  @Input() generalNotesVisible: boolean = true;
 
   comments: { [id: string]: string } = {};
   ratings: { [id: string]: number } = {};

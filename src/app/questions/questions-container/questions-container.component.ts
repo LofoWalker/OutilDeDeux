@@ -29,6 +29,7 @@ export class QuestionsContainerComponent {
   ratings: { [id: string]: number } = {};
   comments: { [id: string]: string } = {};
   generalNotes: string = '';
+  generalNotesVisible = true;
   showSummary = false;
   @ViewChild('interviewSummary') interviewSummary: any;
 
@@ -94,5 +95,9 @@ export class QuestionsContainerComponent {
       }
     }
     this.generalNotes = localStorage.getItem('general-notes') || '';
+  }
+
+  toggleGeneralNotes() {
+    this.generalNotesVisible = !this.generalNotesVisible;
   }
 }

@@ -51,5 +51,5 @@
     <!-- ...existing questions list code... -->
     <ng-content></ng-content>
   </div>
-  <general-notes></general-notes>
+  <general-notes *ngIf="generalNotesVisible"></general-notes>
 </div>
