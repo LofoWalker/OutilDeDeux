@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "deploy": "ng build --configuration production --base-href /OutilDeDeux/ && npx angular-cli-ghpages --dir=dist/OutilDeDeux/browser",
     "test": "ng test"
   },
   "private": true,
