@@ -1,0 +1,35 @@
+<app-header
+  [categories]="categories"
+  [activeCategory]="activeCategory"
+  (categoryChange)="onCategoryChange($event)"
+  (exportSummaryClicked)="onExportSummary()"
+></app-header>
+<interview-summary
+  #interviewSummary
+  [questionsData]="questionsData"
+  [ratings]="ratings"
+  [comments]="comments"
+  [generalNotes]="generalNotes"
+></interview-summary>
+<main>
+  <div class="difficulty-filters">
+    <span *ngFor="let diff of difficultes">
+      <button
+        (click)="onDifficulteChange(diff.value)"
+        [class.active]="activeDifficulte === diff.value"
+        class="difficulty-btn"
+        [ngClass]="'difficulte-' + diff.value"
+      >
+        {{ diff.label }}
+      </button>
+    </span>
+    <button
+      (click)="onDifficulteChange(null)"
+      [class.active]="activeDifficulte === null"
+      class="difficulty-btn"
+    >
+      Toutes difficultés
+    </button>
+  </div>
+  <questions-list [questionsData]="filteredQuestionsData" [getDifficulteLabel]="getDifficulteLabel.bind(this)"></questions-list>
+</main>

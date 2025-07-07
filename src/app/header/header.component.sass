@@ -1,0 +1,90 @@
+@use '../app.sass' as *
+
+header
+  background: $color-primary
+  color: $color-white
+  padding: 1rem 0 0.5rem 0
+  text-align: center
+
+#categories-tabs-row
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 1.5rem
+  margin: 1.5rem 0 2.5rem 0
+  padding: 0.5rem 0.5rem 0 0.5rem
+  border-radius: 16px
+  box-shadow: 0 2px 8px rgba(8, 197, 209, 0.05)
+
+#categories-tabs
+  display: flex
+  gap: 0.5rem
+  flex-wrap: wrap
+
+.tab
+  background: none
+  color: $color-white
+  border: none
+  padding: 0.7rem 2.2rem 0.7rem 2.2rem
+  border-radius: 12px 12px 0 0
+  cursor: pointer
+  font-size: 1.08rem
+  font-weight: 500
+  letter-spacing: 0.02em
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s
+  margin-bottom: -2px
+  position: relative
+  z-index: 1
+  border-bottom: 2px solid transparent
+
+  &.active
+    background: $color-white
+    color: $color-primary
+    font-weight: bold
+    border-bottom: 2px solid $color-primary
+    box-shadow: 0 4px 16px rgba(8, 197, 209, 0.08)
+    z-index: 2
+
+  &:not(.active):hover
+    background: none
+    border-bottom: 2px solid #b3eaf0
+
+.export-summary-btn
+  background: $color-white
+  color: $color-primary
+  border: none
+  border-radius: 8px
+  padding: 0.5em 1em
+  font-size: 1.2em
+  font-weight: 600
+  cursor: pointer
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07)
+  transition: background 0.2s, color 0.2s
+  &:hover
+    background: $color-secondary
+    color: $color-white
+
+.export-summary-btn.icon
+  background: $color-white
+  color: $color-primary
+  border: none
+  border-radius: 50%
+  width: 44px
+  height: 44px
+  min-width: 44px
+  min-height: 44px
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: 1.3em
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07)
+  transition: background 0.2s, color 0.2s
+  cursor: pointer
+  margin-left: 1.2em
+  padding: 0
+  &:hover
+    background: $color-secondary
+    color: $color-white
+  svg
+    display: block
+    margin: 0 auto

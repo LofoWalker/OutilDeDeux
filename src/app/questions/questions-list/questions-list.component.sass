@@ -1,0 +1,320 @@
+@use '../../app.sass' as *
+
+.questions-list
+  h2
+    margin-top: 1.5rem
+    color: #3a3a3a
+  ul
+    margin-bottom: 1rem
+  em
+    color: #888
+    font-size: 0.9em
+
+#questions-list
+  max-width: 800px
+  margin: 0rem auto
+  border-radius: 0 0 10px 10px
+  padding: 0rem 1.5rem
+  min-height: 300px
+  position: relative
+  background: $color-white
+  box-sizing: border-box
+
+  @media (max-width: 1200px)
+    margin: 2rem 2vw
+    padding: 1.5rem 1rem
+
+  @media (max-width: 700px)
+    padding: 1rem 0.5rem
+    min-width: 0
+    border-radius: 0 0 8px 8px
+
+  @media (max-width: 500px)
+    padding: 0.5rem 0.2rem
+    border-radius: 0
+
+.question-block
+  background: $color-bg
+  border-radius: 12px
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07)
+  margin-bottom: 2rem
+  padding: 1.2rem 1.5rem
+  border: 1px solid $color-border
+  transition: box-shadow 0.2s, border 0.2s
+  border-left: 8px solid $color-primary
+  box-sizing: border-box
+
+  @media (max-width: 700px)
+    padding: 0.8rem 0.7rem
+    border-radius: 8px
+
+  @media (max-width: 500px)
+    padding: 0.5rem 0.2rem
+    border-radius: 4px
+
+.question-block.difficulte-1
+  border-left-color: $color-primary
+
+.question-block.difficulte-2
+  border-left-color: $color-secondary
+
+.question-block.difficulte-3
+  border-left-color: $color-tertiary
+
+.question-block.difficulte-4
+  border-left-color: $color-quaternary
+
+.question-title
+  font-weight: bold
+  margin-bottom: 0.5rem
+  font-size: 1.1rem
+  color: $color-title
+  word-break: break-word
+
+  @media (max-width: 500px)
+    font-size: 1rem
+
+.reponses
+  margin-left: 1.5rem
+  color: $color-answer
+  margin-top: 0.5rem
+  padding-left: 0.5rem
+  word-break: break-word
+
+  @media (max-width: 700px)
+    margin-left: 0.7rem
+    padding-left: 0.2rem
+
+  @media (max-width: 500px)
+    margin-left: 0.2rem
+    padding-left: 0
+
+h2
+  margin-top: 1.5rem
+  color: $color-category
+  font-size: 1.3rem
+  @media (max-width: 700px)
+    font-size: 1.1rem
+  @media (max-width: 500px)
+    font-size: 1rem
+
+ul
+  margin-bottom: 1rem
+  padding-left: 1.2rem
+  @media (max-width: 700px)
+    padding-left: 0.7rem
+  @media (max-width: 500px)
+    padding-left: 0.2rem
+
+em
+  color: $color-muted
+  font-size: 0.9em
+  display: block
+  margin-top: 0.5rem
+
+.question-comment
+  margin-top: 1rem
+  textarea
+    width: 100%
+    min-height: 2.5em
+    border-radius: 6px
+    border: 1px solid $color-border
+    padding: 0.5em
+    font-size: 1em
+    resize: vertical
+    background: $color-white
+    color: $color-title
+    transition: border 0.2s
+    box-sizing: border-box
+    &:focus
+      border-color: $color-primary
+
+.question-rating
+  margin: 0.7rem 0 0.2rem 0
+  font-size: 1.3em
+  user-select: none
+  .star-filled
+    color: $color-secondary
+    text-shadow: 0 1px 2px rgba(0,0,0,0.08)
+    transition: color 0.2s
+  .star-empty
+    color: $color-border
+    transition: color 0.2s
+  span
+    cursor: pointer
+    margin-right: 0.1em
+
+.pagination
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: 0.3em
+  margin: 1.5em 0 0.5em 0
+  button
+    background: $color-bg
+    color: $color-primary
+    border: 1px solid $color-border
+    border-radius: 6px
+    padding: 0.35em 1em
+    font-size: 1em
+    font-weight: 500
+    cursor: pointer
+    transition: background 0.2s, color 0.2s, border 0.2s
+    &:hover:not(:disabled)
+      background: $color-primary
+      color: $color-white
+      border-color: $color-primary
+    &.active
+      background: $color-secondary
+      color: $color-primary
+      border-color: $color-secondary
+    &:disabled
+      opacity: 0.5
+      cursor: not-allowed
+
+.category-average
+  font-size: 0.95em
+  color: $color-secondary
+  font-weight: 500
+  margin-left: 0.7em
+
+.global-average-circle
+  position: fixed
+  left: 2vw
+  bottom: 2vw
+  z-index: 100
+  width: 70px
+  height: 70px
+  background: $color-primary
+  color: $color-white
+  border-radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: 1.3em
+  font-weight: 700
+  box-shadow: 0 2px 10px rgba(0,0,0,0.10)
+  user-select: none
+  transition: background 0.2s
+  span
+    display: block
+    text-align: center
+
+.reset-circle-btn
+  position: fixed
+  left: 2vw
+  bottom: 90px
+  z-index: 110
+  width: 48px
+  height: 48px
+  background: $color-secondary
+  color: $color-white
+  border-radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: 1.7em
+  font-weight: 700
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10)
+  cursor: pointer
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s
+  border: none
+  outline: none
+  &:hover
+    background: $color-primary
+    color: $color-white
+  span
+    display: block
+    line-height: 1
+
+.questions-notes-layout
+  display: flex
+  align-items: flex-start
+  gap: 2.5rem
+
+.questions-main
+  flex: 1 1 0
+
+.general-notes
+  position: fixed
+  top: 80px
+  right: 2vw
+  width: 320px
+  min-width: 220px
+  max-width: 400px
+  background: $color-bg
+  border-radius: 12px
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06)
+  padding: 1.2em 1em 1.5em 1em
+  z-index: 200
+  textarea
+    width: 100%
+    min-height: 12em
+    border-radius: 8px
+    border: 1px solid $color-border
+    padding: 0.7em
+    font-size: 1em
+    background: $color-white
+    color: $color-title
+    resize: vertical
+    transition: border 0.2s
+    box-sizing: border-box
+    &:focus
+      border-color: $color-primary
+  h3
+    margin-top: 0
+    margin-bottom: 0.7em
+    color: $color-primary
+    font-size: 1.1em
+    font-weight: 700
+
+.reset-btn
+  display: block
+  margin: 0 auto 1.5em auto
+  background: $color-secondary
+  color: $color-white
+  border: none
+  border-radius: 8px
+  padding: 0.7em 1.5em
+  font-size: 1em
+  font-weight: 600
+  cursor: pointer
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07)
+  transition: background 0.2s, color 0.2s
+  &:hover
+    background: $color-primary
+    color: $color-white
+
+.export-summary-btn
+  display: block
+  margin: 0 auto 1.5em auto
+  background: $color-primary
+  color: $color-white
+  border: none
+  border-radius: 8px
+  padding: 0.7em 1.5em
+  font-size: 1em
+  font-weight: 600
+  cursor: pointer
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07)
+  transition: background 0.2s, color 0.2s
+  &:hover
+    background: $color-secondary
+    color: $color-white
+
+@media (max-width: 900px)
+  .questions-notes-layout
+    flex-direction: column
+  .general-notes
+    position: static
+    width: 100%
+    max-width: 100%
+    margin-top: 2em
+  .reset-circle-btn
+    position: static
+    margin: 1em auto 0 auto
+    left: auto
+    bottom: auto
+    width: 44px
+    height: 44px
+    font-size: 1.3em

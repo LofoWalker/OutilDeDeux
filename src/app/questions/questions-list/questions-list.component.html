@@ -1,0 +1,55 @@
+<reset-storage (reset)="onResetStorage()"></reset-storage>
+
+<section id="questions-list" *ngIf="questionsData">
+  <div *ngFor="let categorie of questionsData.categories; let i = index">
+    <h2>{{ categorie.nom }}<span class="category-average"> — Moyenne :
+      <ng-container *ngIf="getCategoryAverage(categorie) !== undefined; else noCatAvg">
+        {{ getCategoryAverage(categorie) | number:'1.1-2' }}/5
+      </ng-container>
+      <ng-template #noCatAvg>?/5</ng-template>
+    </span></h2>
+    <div *ngIf="i === 0">
+      <div *ngFor="let q of pagedQuestions" class="question-block difficulte-{{q.difficulte}}">
+        <div class="question-title">{{ q.question }}</div>
+        <ul class="reponses">
+          <li *ngFor="let rep of q.reponses">{{ rep }}</li>
+        </ul>
+        <div class="question-rating">
+          <span *ngFor="let star of [1,2,3,4,5]" (click)="setRating(q.id, star)" style="cursor:pointer;">
+            <span [ngClass]="{'star-filled': ratings[q.id] >= star, 'star-empty': ratings[q.id] < star}">&#9733;</span>
+          </span>
+        </div>
+        <div class="question-comment">
+          <textarea
+            [(ngModel)]="comments[q.id]"
+            (ngModelChange)="onCommentChange(q.id)"
+            placeholder="Ajouter un commentaire..."
+            rows="2"
+          ></textarea>
+        </div>
+      </div>
+      <nav class="pagination" *ngIf="totalQuestions > pageSize">
+        <button (click)="goToPage(page - 1)" [disabled]="page === 1">&lt;</button>
+        <span *ngFor="let p of [].constructor(totalPages); let idx = index">
+          <button (click)="goToPage(idx + 1)" [class.active]="page === idx + 1">{{ idx + 1 }}</button>
+        </span>
+        <button (click)="goToPage(page + 1)" [disabled]="page === totalPages">&gt;</button>
+      </nav>
+    </div>
+  </div>
+  <div class="global-average-circle">
+    <span>
+      <ng-container *ngIf="getGlobalAverageFromStorage() !== undefined; else noGlobalAvg">
+        {{ getGlobalAverageFromStorage() | number:'1.1-2' }}/5
+      </ng-container>
+      <ng-template #noGlobalAvg>?/5</ng-template>
+    </span>
+  </div>
+</section>
+<div class="questions-notes-layout">
+  <div class="questions-main">
+    <!-- ...existing questions list code... -->
+    <ng-content></ng-content>
+  </div>
+  <general-notes></general-notes>
+</div>

@@ -1,0 +1,147 @@
+@use '../app.sass' as *
+
+.export-summary-btn
+  display: block
+  margin: 0 auto 1.5em auto
+  background: $color-primary
+  color: $color-white
+  border: none
+  border-radius: 8px
+  padding: 0.7em 1.5em
+  font-size: 1em
+  font-weight: 600
+  cursor: pointer
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07)
+  transition: background 0.2s, color 0.2s
+  &:hover
+    background: $color-secondary
+    color: $color-white
+
+.export-summary-btn.icon
+  background: $color-white
+  color: $color-primary
+  border: none
+  border-radius: 50%
+  width: 44px
+  height: 44px
+  min-width: 44px
+  min-height: 44px
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: 1.3em
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07)
+  transition: background 0.2s, color 0.2s
+  cursor: pointer
+  margin-left: 1.2em
+  padding: 0
+  &:hover
+    background: $color-secondary
+    color: $color-white
+  svg
+    display: block
+    margin: 0 auto
+
+.summary-modal-backdrop
+  position: fixed
+  top: 0
+  left: 0
+  width: 100vw
+  height: 100vh
+  background: rgba(0,0,0,0.18)
+  z-index: 9999
+  display: flex
+  align-items: center
+  justify-content: center
+
+.summary-modal
+  background: $color-white
+  border-radius: 14px
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18)
+  padding: 2.2em 2em 1.5em 2em
+  min-width: 340px
+  max-width: 95vw
+  max-height: 90vh
+  display: flex
+  flex-direction: column
+  align-items: stretch
+  gap: 1.2em
+  overflow: auto
+
+.summary-modal-header
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 0.5em
+
+.summary-modal-title
+  font-size: 1.2em
+  font-weight: 700
+  color: $color-primary
+
+.close-btn
+  background: none
+  border: none
+  font-size: 2em
+  color: $color-title
+  cursor: pointer
+  line-height: 1
+  padding: 0 0.2em
+  margin-left: 1em
+  transition: color 0.2s
+  &:hover
+    color: $color-secondary
+
+.markdown-preview
+  background: $color-bg
+  border-radius: 10px
+  padding: 1.2em 1em
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace
+  font-size: 1em
+  white-space: pre-wrap
+  margin: 0 auto 1em auto
+  max-width: 900px
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06)
+  color: $color-title
+  max-height: 45vh
+  overflow: auto
+
+.summary-preview-text
+  background: $color-bg
+  border-radius: 10px
+  padding: 1.2em 1em
+  font-family: 'Segoe UI', 'Arial', sans-serif
+  font-size: 1.05em
+  white-space: pre-wrap
+  margin: 0 auto 1em auto
+  max-width: 900px
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06)
+  color: $color-title
+  max-height: 45vh
+  overflow: auto
+
+.summary-modal-actions
+  display: flex
+  gap: 1em
+  justify-content: flex-end
+  margin-top: 0.5em
+
+.modal-btn
+  padding: 0.6em 1.3em
+  border-radius: 8px
+  border: none
+  font-size: 1em
+  font-weight: 600
+  cursor: pointer
+  transition: background 0.2s, color 0.2s
+  background: $color-primary
+  color: $color-white
+  &:hover
+    background: $color-secondary
+    color: $color-white
+  &.cancel
+    background: $color-bg
+    color: $color-title
+    &:hover
+      background: $color-border
+      color: $color-title

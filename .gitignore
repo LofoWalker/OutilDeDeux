@@ -1,51 +1,42 @@
-# Node/npm
-node_modules/
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
 npm-debug.log
 yarn-error.log
 
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-Desktop.ini
-
-# Logs
-*.log
-
-# VSCode
-.vscode/
-
-# Environnements Python
-venv/
-.env
-__pycache__/
-
-# Docker
-*.pid
-docker-compose.override.yml
-
-# Autres fichiers temporaires
-*.swp
-*.swo
-
-# Build/Dist
-/dist/
-/build/
-
-# Fichiers système
+# IDEs and editors
 .idea/
-*.iml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Fichiers de backup
-*~
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
 
-# Fichiers personnels
-*.bak
-*.tmp
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
 
-# Fichiers de test
-coverage/
-
-# Fichiers de configuration sensibles
-.env.*
+# System files
+.DS_Store
+Thumbs.db

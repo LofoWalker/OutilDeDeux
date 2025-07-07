@@ -1,0 +1,17 @@
+<div class="summary-modal-backdrop" *ngIf="showModal">
+  <div class="summary-modal">
+    <div class="summary-modal-header">
+      <span class="summary-modal-title">Résumé d'entretien</span>
+      <button class="close-btn" (click)="closeModal()" title="Fermer">&times;</button>
+    </div>
+    <pre class="summary-preview-text">{{ markdown }}</pre>
+    <div class="summary-modal-actions">
+      <button class="modal-btn" (click)="copyToClipboard()">
+        <span *ngIf="!copied">📋 Copier</span>
+        <span *ngIf="copied">✔ Copié !</span>
+      </button>
+      <button class="modal-btn" (click)="exportSummary()">⬇️ Exporter en .txt</button>
+      <button class="modal-btn cancel" (click)="closeModal()">Fermer</button>
+    </div>
+  </div>
+</div>

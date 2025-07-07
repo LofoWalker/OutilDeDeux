@@ -1,0 +1,31 @@
+<app-header
+  [categories]="categories"
+  [activeCategory]="activeCategory"
+  (categoryChange)="onCategoryChange($event)"
+></app-header>
+<main>
+  <div style="text-align:center; margin-bottom:1.5rem;">
+    <span *ngFor="let diff of difficultes">
+      <button
+        (click)="onDifficulteChange(diff.value)"
+        [class.active]="activeDifficulte === diff.value"
+        style="margin:0 0.3rem; padding:0.4rem 1.2rem; border-radius:8px; border:none; font-weight:500; background: #e3e6ee; color: #00353F; cursor:pointer; transition: background 0.2s, color 0.2s;"
+        [style.background]="activeDifficulte === diff.value ? '#00353F' : '#e3e6ee'"
+        [style.color]="activeDifficulte === diff.value ? '#fff' : '#00353F'"
+      >
+        {{ diff.label }}
+      </button>
+    </span>
+    <button
+      (click)="onDifficulteChange(null)"
+      [class.active]="activeDifficulte === null"
+      style="margin:0 0.3rem; padding:0.4rem 1.2rem; border-radius:8px; border:none; font-weight:500; background: #e3e6ee; color: #00353F; cursor:pointer; transition: background 0.2s, color 0.2s;"
+      [style.background]="activeDifficulte === null ? '#00353F' : '#e3e6ee'"
+      [style.color]="activeDifficulte === null ? '#fff' : '#00353F'"
+    >
+      Toutes difficultés
+    </button>
+  </div>
+  <questions-list [questionsData]="filteredQuestionsData" [getDifficulteLabel]="getDifficulteLabel.bind(this)"></questions-list>
+  <router-outlet></router-outlet>
+</main>

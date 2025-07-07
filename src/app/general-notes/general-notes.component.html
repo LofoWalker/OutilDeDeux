@@ -1,0 +1,9 @@
+<aside class="general-notes">
+  <h3>Notes générales</h3>
+  <textarea
+    [(ngModel)]="generalNotes"
+    (ngModelChange)="saveGeneralNotes()"
+    placeholder="Prendre des notes générales sur l'entretien..."
+    rows="12"
+  ></textarea>
+</aside>

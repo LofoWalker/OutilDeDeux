@@ -1,0 +1,13 @@
+<div class="reset-circle-btn" (click)="showModal = true" title="Réinitialiser toutes les réponses">
+  <span>&#x21bb;</span>
+</div>
+<div class="reset-modal-backdrop" *ngIf="showModal">
+  <div class="reset-modal">
+    <div class="reset-modal-title">Réinitialiser toutes les réponses&nbsp;?</div>
+    <div class="reset-modal-text">Cette action supprimera toutes vos notes et réponses.<br>Voulez-vous continuer&nbsp;?</div>
+    <div class="reset-modal-actions">
+      <button class="modal-btn confirm" (click)="confirmReset()">Oui, tout effacer</button>
+      <button class="modal-btn cancel" (click)="showModal = false">Annuler</button>
+    </div>
+  </div>
+</div>
